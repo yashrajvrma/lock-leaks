@@ -255,7 +255,7 @@ const Dailogs = () => {
       toast.success("Login successful!");
 
       // Redirect to home page
-      router.push("/");
+      router.push("/dashboard");
     } catch (error) {
       // Show error toast
       const errorMessage =

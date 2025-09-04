@@ -32,7 +32,21 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages_dashboard_846b8cbb._.js"
     ],
     "/login": [
-      "static/chunks/[root-of-the-server]__7505bc8d._.js",
+      "static/chunks/[root-of-the-server]__6eb7d5f5._.js",
+      "static/chunks/node_modules_next_dist_compiled_2d271c52._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_230ff40a._.js",
+      "static/chunks/node_modules_next_dist_client_17c0666a._.js",
+      "static/chunks/node_modules_next_dist_74abe800._.js",
+      "static/chunks/node_modules_next_86968b40._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_axios_lib_9aa2336a._.js",
+      "static/chunks/node_modules_a8aa6334._.js",
+      "static/chunks/styles_3a256ba1._.css",
+      "static/chunks/pages_login_5771e187._.js",
+      "static/chunks/pages_login_60af75a3._.js"
+    ],
+    "/start-free": [
+      "static/chunks/[root-of-the-server]__5a3e5228._.js",
       "static/chunks/node_modules_next_dist_compiled_2d271c52._.js",
       "static/chunks/node_modules_next_dist_shared_lib_c6e9c76d._.js",
       "static/chunks/node_modules_next_dist_client_f131196d._.js",
@@ -40,10 +54,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_5412f653._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
       "static/chunks/node_modules_axios_lib_9aa2336a._.js",
-      "static/chunks/node_modules_d0dc54cc._.js",
-      "static/chunks/styles_3a256ba1._.css",
-      "static/chunks/pages_login_5771e187._.js",
-      "static/chunks/pages_login_0fb1d892._.js"
+      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_e33d9f9e._.js",
+      "static/chunks/node_modules_1f1f0192._.js",
+      "static/chunks/styles_1bb446e3._.css",
+      "static/chunks/pages_start-free_5771e187._.js",
+      "static/chunks/pages_start-free_b0a4b670._.js"
     ]
   },
   "devFiles": [],

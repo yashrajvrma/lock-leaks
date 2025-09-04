@@ -1285,7 +1285,7 @@ const CheckPrivateContentFree = ()=>{
                     requestBody.contactLiveChat = contactValue;
                     break;
             }
-            const response = await __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].post("http://localhost:8080/v1/api/auth/signup", requestBody, {
+            const response = await __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].post("http://localhost:8000/v1/api/auth/signup", requestBody, {
                 headers: {
                     "Content-Type": "application/json"
                 }
