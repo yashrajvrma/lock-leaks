@@ -1116,6 +1116,10 @@
     width: calc(var(--spacing) * 100);
   }
 
+  .w-\[200\] {
+    width: 200px;
+  }
+
   .w-auto {
     width: auto;
   }
@@ -1398,6 +1402,10 @@
     border-radius: calc(var(--radius)  - 2px);
   }
 
+  .rounded-xl {
+    border-radius: calc(var(--radius)  + 4px);
+  }
+
   .rounded-s {
     border-start-start-radius: .25rem;
     border-end-start-radius: .25rem;
@@ -1678,6 +1686,10 @@
 
   .p-8 {
     padding: calc(var(--spacing) * 8);
+  }
+
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
   }
 
   .px-0 {

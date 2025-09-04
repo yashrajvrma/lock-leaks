@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://Y%3A/lock-leacks/frontend/styles/footer.css"],"sourcesContent":["/* styles/footer.css */\r\n.footer {\r\n  max-width: 1200px;\r\n  margin: 0 auto;\r\n  padding: 0;\r\n}\r\n\r\n.custom-footer {\r\n    background-color: transparent !important; /* Makes the footer background transparent */\r\n    color: white; /* Ensures text remains white */\r\n    border: none; /* Removes any border if needed */\r\n  }\r\n  .btn-start-free {\r\n  background-color: #C52BAF;\r\n  border: 1px solid #C52BAF !important;\r\n  border: none;\r\n  color: #fff;\r\n  transition: all 0.3s ease;\r\n}\r\n\r\n.btn-start-free:hover {\r\n  background-color: rgba(0, 0, 0, 0);\r\n  border: 1px solid #C52BAF;\r\n  color: #fff;\r\n}\r\n/* Custom underline with blur */\r\n.nav-link-custom {\r\n  position: relative;\r\n  display: inline-block;\r\n}\r\n\r\n.nav-link-custom:hover::after {\r\n  content: '';\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: 0; /* or adjust for alignment */\r\n  width: 100%;\r\n  height: 3px;\r\n  background-color: #905488;\r\n  filter: blur(2px);\r\n  border-radius: 2px;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;AAMA;;;;;;AAKE;;;;;;;;AAQF;;;;;;AAMA;;;;;AAKA","debugId":null}}]
+}

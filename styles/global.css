@@ -212,3 +212,40 @@ body {
   background-color: #c83273;
   color: #fff;
 } */
+
+/* Save button attached to input */
+.input-save-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-save-wrapper input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #555;
+  background-color: #2a2a2a;
+  color: #fff;
+  border-radius: 8px 0 0 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-save-wrapper input::placeholder {
+  color: #888;
+}
+
+.input-save-wrapper .btn-save {
+  background-color: #c52baf;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-save-wrapper .btn-save:hover {
+  background-color: #a2208e;
+}

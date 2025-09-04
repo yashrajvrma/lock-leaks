@@ -194,4 +194,40 @@ body {
   }
 }
 
+.input-save-wrapper {
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.input-save-wrapper input {
+  color: #fff;
+  background-color: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.input-save-wrapper input::placeholder {
+  color: #888;
+}
+
+.input-save-wrapper .btn-save {
+  color: #fff;
+  cursor: pointer;
+  background-color: #c52baf;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: background .3s;
+}
+
+.input-save-wrapper .btn-save:hover {
+  background-color: #a2208e;
+}
+
 /*# sourceMappingURL=styles_global_css_2bef753f._.single.css.map*/

@@ -320,7 +320,7 @@ export default function Header() {
                     </button>
                     <button
                       className="btn-start"
-                      onClick={() => router.push("/signup")}
+                      onClick={() => router.push("/start-free")}
                     >
                       Start Free
                     </button>

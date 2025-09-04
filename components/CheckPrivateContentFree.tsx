@@ -67,7 +67,7 @@
 
 // const TOTAL_STEPS = 5; // Added Step 5
 
-// const CheckPrivateContent: React.FC = () => {
+// const CheckPrivateContentFree: React.FC = () => {
 //   const [step, setStep] = useState<number>(1);
 //   const [selectedPlatforms, setSelectedPlatforms] = useState<Set<PlatformKey>>(
 //     new Set()
@@ -539,6 +539,9 @@
 //     </div>
 //   );
 // };
+
+// export default CheckPrivateContentFree
+
 "use client";
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
@@ -1125,12 +1128,12 @@ const CheckPrivateContentFree: React.FC = () => {
     return (
       <div>
         <div className="text-center my-3">
-          <h5 className="form-heading text-white">
+          {/* <h5 className="form-heading text-white">
             Add your {platformName} account
-          </h5>
-          <p className="text-muted mb-3">Just enter your username</p>
+          </h5> */}
+          <h5 className="text-muted mb-3 ">Just enter your username</h5>
           <div className="d-flex justify-content-center">
-            <div className="w-75">
+            {/* <div className="w-full">
               <Input
                 type="text"
                 className={`${errors.username ? "border-red-500" : ""}`}
@@ -1144,6 +1147,18 @@ const CheckPrivateContentFree: React.FC = () => {
                 }}
                 autoComplete="username"
               />
+            </div> */}
+            <div className="input-save-wrapper">
+              <input
+                type="text"
+                className="custom-input px-4 py-2 border rounded w-100"
+                placeholder="https://onlyfans.com/@username"
+                value={username}
+                onChange={handleUsernameChange}
+              />
+              {/* <button type="button" className="btn-save" onClick={handleSave}>
+                Save
+              </button> */}
             </div>
           </div>
           {errors.username && (
@@ -1173,17 +1188,14 @@ const CheckPrivateContentFree: React.FC = () => {
         <div className="d-flex gap-3 mb-3">
           <div className="flex-fill">
             <label className="form-label text-white mb-2">Email Address</label>
-            <Input
+            <input
               type="email"
-              className={`${errors.email ? "border-red-500" : ""}`}
+              className={`${
+                errors.email ? "border-red-500" : ""
+              } custom-input px-4 py-2 border rounded w-100`}
               placeholder="your@email.com"
               value={email}
               onChange={handleEmailChange}
-              style={{
-                backgroundColor: "#2a2a2a",
-                border: "1px solid #555",
-                color: "#ffffff",
-              }}
               autoComplete="email"
             />
             {errors.email && (
@@ -1193,9 +1205,11 @@ const CheckPrivateContentFree: React.FC = () => {
 
           <div className="flex-fill">
             <label className="form-label text-white mb-2">Password</label>
-            <Input
+            <input
               type="password"
-              className={`${errors.password ? "border-red-500" : ""}`}
+              className={`${
+                errors.password ? "border-red-500" : ""
+              } custom-input px-4 py-2 border rounded w-100`}
               placeholder="Enter password"
               value={password}
               onChange={handlePasswordChange}
@@ -1332,7 +1346,7 @@ const CheckPrivateContentFree: React.FC = () => {
           <label className="form-label text-white mb-2">
             {getContactLabel()}
           </label>
-          <Input
+          <input
             type={
               contactMethod === "email"
                 ? "email"
@@ -1340,7 +1354,9 @@ const CheckPrivateContentFree: React.FC = () => {
                 ? "tel"
                 : "text"
             }
-            className={`${errors.contactValue ? "border-red-500" : ""}`}
+            className={`${
+              errors.contactValue ? "border-red-500" : ""
+            } custom-input px-4 py-2 border rounded w-100`}
             placeholder={getContactPlaceholder()}
             value={contactValue}
             onChange={handleContactValueChange}
@@ -1393,7 +1409,9 @@ const CheckPrivateContentFree: React.FC = () => {
           <label className="d-flex align-items-center justify-content-center">
             <input
               type="checkbox"
-              className={`me-2 ${errors.terms ? "is-invalid" : ""}`}
+              className={`me-2 ${
+                errors.terms ? "is-invalid" : ""
+              } custom-input p-2`}
               checked={agreedToTerms}
               onChange={(e) => setAgreedToTerms(e.target.checked)}
             />
