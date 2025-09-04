@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://Y%3A/lock-leacks/frontend/pages/_document.js"],"sourcesContent":["// pages/_document.js\r\nimport Document, { Html, Head, Main, NextScript } from 'next/document';\r\n\r\nclass MyDocument extends Document {\r\n  render() {\r\n    return (\r\n      <Html>\r\n        <Head>\r\n          {/* Google Fonts: Poppins and Inter */}\r\n          <link\r\n            href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap\"\r\n            rel=\"stylesheet\"\r\n          />\r\n        </Head>\r\n        <body>\r\n          <Main />\r\n          <NextScript />\r\n        </body>\r\n      </Html>\r\n    );\r\n  }\r\n}\r\n\r\nexport default MyDocument;\r\n"],"names":[],"mappings":"AAAA,qBAAqB;;;;;AACrB;;;AAEA,MAAM,mBAAmB,yHAAA,CAAA,UAAQ;IAC/B,SAAS;QACP,qBACE,qKAAC,yHAAA,CAAA,OAAI;;8BACH,qKAAC,yHAAA,CAAA,OAAI;8BAEH,cAAA,qKAAC;wBACC,MAAK;wBACL,KAAI;;;;;;;;;;;8BAGR,qKAAC;;sCACC,qKAAC,yHAAA,CAAA,OAAI;;;;;sCACL,qKAAC,yHAAA,CAAA,aAAU;;;;;;;;;;;;;;;;;IAInB;AACF;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,192 @@
+/* styles/TestiScrol.css */
+
+.scroll-section {
+  padding: 20px 20px;
+  position: relative;
+  align-items: center;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.chat-wrapper {
+  background-color: #2a292e;
+  border-radius: 20px;
+  min-height: 360px;
+  max-width: 400px;
+  padding-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  margin-left: auto;   /* Add this */
+  margin-right: auto;  /* Add this */
+}
+
+.message-box {
+  background-color: #1d2021;
+  color: #fff;
+  padding: 16px 16px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  font-size: 14px;
+  max-width: 90%;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.from-lockleaks {
+  text-align: right;
+  padding: 20px 20px 0 20px;
+}
+
+.from-dando {
+  text-align: left;
+  padding: 20px 20px 0 20px;
+}
+
+.sender-label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #aaa;
+  padding-left: 5px;
+}
+
+.profile-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1d2021;
+  padding: 12px 16px;
+  margin-top: 80px;
+  gap: 10px;
+  /* border-radius: 0 0 20px 20px; */
+}
+
+.profile-bar img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 500;
+  margin: 0;
+  color: #e5e5e5;
+}
+
+.designation {
+  font-size: 14px;
+  color: #bbb;
+  margin: 0;
+}
+
+/* Hide swiper pagination */
+.swiper-pagination {
+  display: none !important;
+}
+
+/* Navigation Buttons */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  bottom: 10px !important;
+  position: relative;
+  z-index: 10;
+  background: #343a40;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  user-select: none;
+  cursor: pointer;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #e46bd3;
+  color: #ffffff;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  overflow-clip: clip;
+  list-style: none;
+  padding-bottom: 70px;
+  z-index: 1;
+  display: block;
+}
+
+.swiper-button-next::after {
+  content: "next";
+  font-size: 20px;
+}
+
+.swiper-button-prev::after {
+  content: "prev";
+  font-size: 20px;
+}
+
+.swiper-button-prev {
+    left: 50%;
+    transform: translate(-56px, -13px);
+}
+
+.swiper-button-next {
+  left: 50%;
+  transform: translateX(30px);
+}
+
+@media (max-width: 576px) {
+  .swiper-button-prev {
+    transform: translate(-56px, -12px);
+  }
+  .swiper-button-next {
+    transform: translateX(20px);
+  }
+  .scroll-section {
+    padding: 10px;
+}
+}
+
+.testimonials-heading {
+  text-align: center;
+  color: #d0d0d8; /* light gray */
+  margin-bottom: 40px;
+}
+
+.testimonials-heading .small-text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.testimonials-heading .main-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #e0e0e7; /* slightly lighter */
+  margin-bottom: 8px;
+}
+
+.testimonials-heading .sub-title {
+    color: #A3A3A3;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 767.99px) {
+.testimonials-heading .main-title {
+    font-size: 30px;
+}
+.testimonials-heading .sub-title {
+    font-size: 20px;
+}
+}

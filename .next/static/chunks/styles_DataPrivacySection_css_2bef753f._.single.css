@@ -1,0 +1,236 @@
+/* [project]/styles/DataPrivacySection.css [client] (css) */
+.lockleaks-section {
+  color: #fff;
+  position: relative;
+}
+
+.lockleaks-section .container {
+  background-color: #25222b;
+  border-radius: 12px;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 40px 40px 80px;
+}
+
+.gradient-heading {
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.gradient-heading .text-your {
+  color: #932e7a;
+}
+
+.gradient-heading .text-data {
+  color: #d67fbd;
+}
+
+.description {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.start-btn {
+  color: #fff;
+  background-color: #c52baf;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  font-weight: bold;
+  border: 1px solid #d84dd3 !important;
+}
+
+.start-btn:hover {
+  background-color: #b13cad00;
+  border: 1px solid #d84dd3;
+}
+
+.chat-bubbles {
+  margin-top: 30px;
+  position: relative;
+}
+
+.bubble {
+  background: #1d1b22;
+  border-radius: 12px;
+  align-items: center;
+  width: 240px;
+  padding: 10px 15px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0 0 10px #ffffff0d;
+}
+
+.bubble img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info-boxes {
+  flex-direction: column;
+  gap: 30px;
+  display: flex;
+}
+
+.info-box {
+  background: #1a1a1e00;
+  border: 1px solid #b83395;
+  border-radius: 10px;
+  gap: 15px;
+  padding: 17px 10px;
+  display: flex;
+}
+
+.info-box h5 {
+  color: #ba5faf;
+  margin: 0 0 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info-box p {
+  color: #ddd;
+  margin: 0;
+  font-size: 14px;
+}
+
+.chat-bubbles {
+  min-height: 330px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.bubble {
+  color: #a8a7a8;
+  background: linear-gradient(to right, #242426 0%, #282127 50%, #ff52c254 100%);
+  border: 2px solid #393539;
+  border-radius: 12px;
+  align-items: center;
+  width: 263px;
+  padding: 0;
+  font-size: 14px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0 0 10px #ffffff0d;
+}
+
+.chat-bubbles .bubble p {
+  margin-bottom: 5px;
+  padding-right: 10px;
+  line-height: 15px;
+  margin-top: 5px !important;
+}
+
+.bubble img {
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.bubble1 {
+  top: -34px;
+  left: 0;
+  transform: rotate(-12deg);
+}
+
+.bubble2 {
+  top: 85px;
+  left: 270px;
+  transform: rotate(10deg);
+}
+
+.bubble3 {
+  top: 240px;
+  left: 36px;
+  transform: rotate(-22deg);
+}
+
+.arrow {
+  z-index: 0;
+  position: absolute;
+}
+
+.chat-bubbles:hover .arrow1 {
+  transition: all .5s;
+  transform: rotate(0);
+}
+
+.arrow1 {
+  transition: all .5s;
+  top: -27px;
+  left: 270px;
+  transform: rotate(-16deg);
+}
+
+.arrow2 {
+  transition: all .5s;
+  top: 155px;
+  left: 290px;
+}
+
+.chat-bubbles:hover .arrow2 {
+  transition: all .5s;
+  top: 157px;
+  left: 290px;
+  transform: rotate(-16deg);
+}
+
+.chat-bubbles .bubble {
+  transition: all .5s;
+}
+
+.chat-bubbles:hover .bubble1 {
+  top: -34px;
+  left: 0;
+  transform: rotate(0);
+}
+
+.chat-bubbles:hover .bubble2 {
+  top: 75px;
+  left: 270px;
+  transform: rotate(0);
+}
+
+.chat-bubbles:hover .bubble3 {
+  top: 220px;
+  left: 30px;
+  transform: rotate(0);
+}
+
+.info-boxes {
+  opacity: 0;
+  transition: all .5s ease-out;
+  transform: translateY(100px);
+}
+
+.info-boxes.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.chat-bubbles {
+  position: relative;
+}
+
+.hover-image-wrapper {
+  padding: 10px;
+  transition: all .5s;
+  position: absolute;
+  bottom: 63px;
+  right: 54px;
+}
+
+.chat-bubbles:hover .hover-image-wrapper {
+  transform: translateY(80%);
+}
+
+@media (width <= 766.98px) {
+  .lockleaks-section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=styles_DataPrivacySection_css_2bef753f._.single.css.map*/

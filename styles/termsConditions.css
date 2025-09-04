@@ -1,0 +1,140 @@
+.terms-wrapper {
+  background-color: #0D0A14;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden; /* keep x hidden */
+  padding-top: 120px; /* space for fixed header */
+}
+
+.terms-breadcrumbs h1 {
+  background: linear-gradient(to right, #F36CCF, #CD88BF, #9F95A5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  color: transparent;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+  display: inline-block; /* 🔥 Required for gradient to apply */
+}
+.terms-breadcrumbs {
+  text-align: center;
+}
+
+
+.terms-updated {
+  text-align: center;
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 50px;
+}
+
+.terms-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.terms-content h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.terms-content h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.terms-content p,
+.terms-content li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
+      text-align: justify;
+
+}
+
+/* Background circles */
+.terms-wrapper::before,
+.terms-wrapper::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #2A102A;
+  filter: blur(30px);
+  z-index: 0;
+}
+
+.terms-wrapper:before {
+    width: 250px;
+    height: 250px;
+    top: 51%;
+    left: -8%;
+}
+
+.terms-wrapper:after {
+    width: 300px;
+    height: 300px;
+    top: 100%;
+    left: 82%;
+}
+
+.circle-left,
+.circle-right {
+  position: absolute;
+  border-radius: 50%;
+  background: #2A102A;
+  filter: blur(30px);
+  z-index: 0;
+}
+
+.circle-left {
+    width: 200px;
+    height: 200px;
+    top: 32%;
+    left: 89%;
+}
+
+.circle-right {
+    width: 300px;
+    height: 300px;
+    top: 129%;
+    left: -5%;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 766.98px) {
+  .terms-breadcrumbs h1 {
+    font-size: 32px; /* Smaller heading for mobile */
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+
+  .terms-updated {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .terms-content {
+    padding: 20px;
+  }
+
+  .terms-content p,
+  .terms-content li {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  .terms-wrapper {
+    padding-top: 50px;
+
+}
+}

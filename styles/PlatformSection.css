@@ -1,0 +1,125 @@
+.platform-section {
+  padding: 60px 15px;
+  background-color: #0f0d13;
+  color: #fff;
+}
+
+.platform-heading {
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(to right, #F33BC0, #ECA7E2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.platform-subtext {
+  color: #ddd;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.platform-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ✅ center all rows */
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* Last row center */
+.platform-row-center {
+  justify-content: center;
+}
+
+.platform-grid-item {
+  width: 100%;
+  max-width: 350px;
+  flex: 1 1 300px;
+}
+
+.platform-card {
+  text-align: left;
+  background: linear-gradient(178deg, #770350, #2E2741);
+  border-radius: 6px;
+  height: 100%;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.platform-card:hover {
+  transform: translateY(-5px);
+}
+
+.platform-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.platform-icon {
+  width: 40px;
+  height: 40px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.platform-title {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.platform-description {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.platform-btn {
+  color: #fff;
+  background-color: #C52BAF;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.platform-btn:hover {
+  background-color: #b931b0;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .platform-heading {
+    font-size: 26px;
+  }
+
+  .platform-description {
+    font-size: 13px;
+  }
+
+  .platform-row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .platform-grid-item {
+    max-width: 100%;
+  }
+}

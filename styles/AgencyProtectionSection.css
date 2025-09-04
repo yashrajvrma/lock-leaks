@@ -1,0 +1,88 @@
+.agency-protection-section {
+  position: relative;
+  color: #fff;
+  background: linear-gradient(to bottom, #1E0F22, #180E1C);
+  border-radius: 25px;
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Gradient Border using Mask Technique */
+.agency-protection-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  padding: 1px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #D266C4, #483E4A);
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+}
+
+.inner-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-logo {
+  display: inline-block;
+}
+
+/* .section-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #C5A3C1;
+  margin-bottom: 20px;
+} */
+.section-heading {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.gradient-creators {
+  background: linear-gradient(to right, #b4b4b4, #ffc8f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-business {
+  background: linear-gradient(to right, #b4b4b4, #ffc8f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.section-description {
+  font-size: 18px;
+  color: #a39ea4;
+  margin-bottom: 30px;
+}
+
+.secure-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #D631BE;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secure-btn:hover {
+  opacity: 0.9;
+}

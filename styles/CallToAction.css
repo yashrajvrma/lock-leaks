@@ -1,0 +1,134 @@
+.ctaContainer {
+  position: relative;
+  color: #fff;
+  background: url('/images/cta-bg.png') center/cover no-repeat;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 40px 60px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ctaContainer::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  padding: 2px;
+  border-radius: 24px;
+  background: linear-gradient(to bottom, #D268C4, #4B414D);
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+}
+
+.ctaContent {
+  text-align: center;
+}
+
+.lockIcon {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 20px;
+}
+
+.ctaContent h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+  background: linear-gradient(to right, #CEBFCD, #E8B7DE, #F4C4ED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.highlight-1 {
+  background: linear-gradient(to bottom, #5c1a4e 15%, #5c1a4e 85%, #2C1029 100%);
+  color: #F4C4ED;
+  -webkit-text-fill-color: #F4C4ED; /* override transparent from parent */
+  border-radius: 4px 4px 0 0;
+  padding: 10px 2px 6px 2px;
+  display: inline-block;
+  box-shadow: 0 2px 12px #0006;
+}
+
+.ctaContent p {
+  color: #A39EA4;
+  margin-bottom: 32px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.ctaButton {
+  background-color: #c52baf; /* pink */
+  color: white;
+  padding: 8px 40px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid #c52baf;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ctaButton.hovered {
+  background-color: #000000 !important;
+  border-color: 1px solid #c52baf !important;
+  color: white !important;
+}
+
+.agencyButton {
+  background-color: #000000; /* black */
+  border-color: 1px solid #c52baf !important;
+  color: white;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.agencyButton.hovered {
+  background-color: #c52baf !important;
+  border-color: 1px solid #c52baf !important;
+  color: white !important;
+}
+
+/* Disable default :hover effects */
+.ctaButton:hover,
+.agencyButton:hover {
+  /* background-color: inherit !important; */
+  border-color: 1px solid #c52baf !important;
+  color: inherit !important;
+}
+
+
+/* Responsive */
+@media (max-width: 766.98px) {
+  .ctaContainer {
+    padding: 40px 30px !important;
+    margin: 2px !important;
+  }
+
+  .ctaContent h2 {
+    font-size: 18px !important;
+  }
+
+  .ctaContent p {
+    font-size: 17px !important;
+    line-height: 1.1em !important;
+  }
+
+  .ctaButton {
+    padding: 8px 32px !important;
+  }
+
+  .ctaButtons {
+    max-width: 100%;
+    gap: 12px;
+  }
+}

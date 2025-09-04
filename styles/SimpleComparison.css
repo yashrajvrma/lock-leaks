@@ -1,0 +1,138 @@
+.comparison-section {
+  text-align: center;
+  /* background-color: #0a0a0a; */
+  padding: 60px 20px;
+  color: white;
+}
+
+.comparison-subtitle {
+  color: #C52BAF;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.comparison-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.comparison-desc {
+  font-size: 16px;
+  color: #c1c1c1;
+  margin-bottom: 40px;
+}
+
+.comparison-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.comparison-card {
+  background: #1e1e1e;
+  padding: 25px 20px;
+  border-radius: 16px;
+  max-width: 350px;
+  flex: 1;
+  transition: transform 0.3s;
+  border: 2px solid transparent;
+}
+
+.comparison-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-left {
+  border-color: #C32AAD;
+  background-color: #3C3C3C;
+}
+
+.card-mid {
+  border-color: #C32AAD;
+  background-color: #3C3C3C;
+}
+
+.card-right {
+  background: linear-gradient(135deg, #76226D, #8C818D);
+  color: white;
+  border-color: #C32AAD;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-header h3 {
+  color: #fff;
+  text-align: left;
+  flex: 1;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon-right {
+  width: 15%;
+  height: auto;
+  object-fit: contain;
+}
+
+.icon-left {
+  object-fit: contain;
+  width: 17%;
+  height: auto;
+}
+
+.comparison-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.comparison-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.comparison-card li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.comparison-card li strong {
+  flex-shrink: 0;
+  margin-right: 10px;
+  color: white;
+  min-width: 90px;
+}
+
+/* Force 2 boxes per row below 1000px */
+@media (max-width: 1000px) {
+  .comparison-card {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+}
+
+/* Force 1 box per row below 768px */
+@media (max-width: 768px) {
+  .comparison-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .comparison-cards {
+    gap: 0px;
+  }
+}

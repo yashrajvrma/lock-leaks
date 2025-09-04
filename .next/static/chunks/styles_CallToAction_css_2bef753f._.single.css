@@ -1,0 +1,136 @@
+/* [project]/styles/CallToAction.css [client] (css) */
+.ctaContainer {
+  color: #fff;
+  z-index: 1;
+  background: url("/images/cta-bg.png") center / cover no-repeat;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 40px 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaContainer:before {
+  content: "";
+  z-index: -1;
+  -webkit-mask-composite: destination-out;
+  background: linear-gradient(#d268c4, #4b414d);
+  border-radius: 24px;
+  padding: 2px;
+  position: absolute;
+  inset: 0;
+  mask-image: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+  mask-position: 0 0, 0 0;
+  mask-size: auto, auto;
+  mask-repeat: repeat, repeat;
+  mask-clip: content-box, border-box;
+  mask-origin: content-box, border-box;
+  mask-composite: exclude;
+  mask-mode: match-source, match-source;
+}
+
+.ctaContent {
+  text-align: center;
+}
+
+.lockIcon {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 20px;
+}
+
+.ctaContent h2 {
+  background: linear-gradient(to right, #cebfcd, #e8b7de, #f4c4ed);
+  -webkit-text-fill-color: transparent;
+  color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.highlight-1 {
+  color: #f4c4ed;
+  -webkit-text-fill-color: #f4c4ed;
+  background: linear-gradient(#5c1a4e 15% 85%, #2c1029 100%);
+  border-radius: 4px 4px 0 0;
+  padding: 10px 2px 6px;
+  display: inline-block;
+  box-shadow: 0 2px 12px #0006;
+}
+
+.ctaContent p {
+  color: #a39ea4;
+  margin-bottom: 32px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.ctaButton {
+  color: #fff;
+  background-color: #c52baf;
+  border: 2px solid #c52baf;
+  border-radius: 8px;
+  padding: 8px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color .3s, border-color .3s;
+}
+
+.ctaButton.hovered {
+  border-color: 1px solid #c52baf !important;
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.agencyButton {
+  color: #fff;
+  background-color: #000;
+  transition: background-color .3s, border-color .3s;
+  border-color: 1px solid #c52baf !important;
+}
+
+.agencyButton.hovered {
+  border-color: 1px solid #c52baf !important;
+  color: #fff !important;
+  background-color: #c52baf !important;
+}
+
+.ctaButton:hover, .agencyButton:hover {
+  border-color: 1px solid #c52baf !important;
+  color: inherit !important;
+}
+
+@media (width <= 766.98px) {
+  .ctaContainer {
+    margin: 2px !important;
+    padding: 40px 30px !important;
+  }
+
+  .ctaContent h2 {
+    font-size: 18px !important;
+  }
+
+  .ctaContent p {
+    font-size: 17px !important;
+    line-height: 1.1em !important;
+  }
+
+  .ctaButton {
+    padding: 8px 32px !important;
+  }
+
+  .ctaButtons {
+    gap: 12px;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles_CallToAction_css_2bef753f._.single.css.map*/

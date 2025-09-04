@@ -1,0 +1,496 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+.carousel-item h4,
+.carousel-item p {
+  color: #000 !important;
+}
+
+.dailogs-login-slider-section {
+  width: 90%;
+    background-color: #121212;
+
+  max-width: 1150px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 85vh;
+}
+
+.platform-login-box {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.check-sub {
+    color: rgb(255, 255, 255);
+    background-color: #3c3137;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+.check-instruction {
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-account-box {
+  background-color: #444;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.add-account-box span {
+  color: white;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.dailogs-info-box {
+  background: linear-gradient(to bottom, #ffffff, #f1aced, #f33bc0cc);
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.custom-popup {
+  background-color: #2b2b2b !important;
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  height: 85vh;
+}
+
+.platform-section {
+  margin-bottom: 1.5rem;
+}
+
+.platform-heading {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.platform-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.platform-btn {
+  background-color: #444;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 14px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  border: 1px solid #444;
+}
+
+.platform-btn:hover {
+  border: 1px solid #f06ad3;
+  transform: scale(1.05);
+}
+
+.btn-pink {
+  background-color: #f1aced;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+
+.btn-pink:hover {
+  background-color: #f06ad3;
+  color: #000;
+}
+
+@media (max-width: 767.98px) {
+  .dailogs-login-slider-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .carousel-inner {
+    padding: 30px 15px;
+  }
+}
+.text-muted{
+  color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Step3Verify CSS */
+
+.step3-container {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.step3-container h4,
+.step3-container h6 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Subheading and note */
+.step3-container p.text-muted {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Input row */
+.step3-container .d-flex.gap-3 {
+  margin-bottom: 1rem;
+}
+
+/* Input fields */
+.step3-container input.form-control {
+  border: 1px solid #585858;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #585858;
+}
+
+
+/* Error messages */
+.step3-container small.text-danger {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Radio buttons list */
+.step3-container .list-group {
+  margin-bottom: 1rem;
+}
+
+.step3-container .list-group-item {
+    cursor: pointer;
+    color: #fff;
+    background: #585858;
+    border: 1px solid #585858;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;     /* Center vertically */
+    width: 60%;
+    margin-left: auto;       /* Center the whole item in parent */
+    margin-right: auto;      /* Center the whole item in parent */
+}
+
+
+.step3-container .list-group-item input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #ff69b4; /* Pink highlight for selected radio */
+}
+
+/* WhatsApp input + Next button */
+.step3-container .d-flex.justify-content-between {
+  gap: 10px;
+}
+
+.step3-container .d-flex.justify-content-between input.form-control {
+  flex: 1;
+}
+
+.step3-container .btn-pink {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.step3-container .btn-pink:hover {
+  background-color: #e0559c;
+}
+
+
+
+/* Checkbox + Terms */
+.step4-terms {
+  max-width: 500px;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #d1d1d1;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hide the default checkbox */
+.checkbox-label input[type="checkbox"] {
+  display: none;
+}
+
+/* Custom checkbox style */
+.custom-check {
+  width: 20px;
+  height: 20px;
+  background: #444;
+  border-radius: 4px;
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-check {
+  background: #ff3ba7;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-check::after {
+  content: "✅";
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: 16px;
+}
+
+/* Links inside terms */
+.step4-terms a {
+  color: #ff6ec4;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.step4-terms a:hover {
+  color: #ff3ba7;
+}
+
+/* Button */
+.step4-btn {
+  background: #ff3ba7;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(255, 59, 167, 0.3);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.step4-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.step4-btn:hover:not(:disabled) {
+  background: #ff1f96;
+  box-shadow: 0 6px 14px rgba(255, 59, 167, 0.4);
+}
+/* Background aur card feel */
+.step4-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers horizontally */
+  justify-content: flex-start; /* align items to top */
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: #f1f1f1;
+}
+/* Hide default checkbox */
+.checkbox-label input[type="checkbox"] {
+  display: none;
+}
+
+/* Custom checkbox style */
+.custom-check {
+  width: 20px;
+  height: 20px;
+  background: #444; /* neutral background */
+  border-radius: 4px;
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Show only tick when checked, no background change */
+.checkbox-label input[type="checkbox"]:checked + .custom-check::after {
+  content: "✓"; /* simple tick */
+}
+/* Step5Done.css */
+
+.step5-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  text-align: center;
+  padding: 2rem;
+}
+
+.step5-container .selected-plan,
+.step5-container p {
+  margin: 0.5rem 0;
+}
+
+.step5-container .step4-terms {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* checkbox label content aligned left inside container */
+  max-width: 680px;
+}
+
+.step5-container .step4-terms label {
+  cursor: pointer;
+}
+
+.step5-container .step4-btn {
+  margin-top: 1.5rem;
+}
+.modal-content{
+  background-color: 2b2b2b !important;
+}
+
+
+
+
+
+.custom-btn-free {
+  background-color: #F33BC0CC !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.custom-btn-free:hover {
+  background-color: #d92fa8 !important; /* hover thoda dark shade */
+  color: #fff !important;
+}
+
+
+.custom-input-group {
+  max-width: 500px; /* center box ka width control */
+  width: 100%;
+}
+
+.custom-input {
+  background-color: #444 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.custom-input::placeholder {
+  color: #fff !important;
+  opacity: 0.7;
+}
+.popup-image {
+  max-width: 80%;
+  border-radius: 10px;
+  height: auto;
+}
+.input-field {
+    color: #fff;
+    background-color: #2b2b2b;
+    border: none;
+    width: 100%;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Gradient Loading Text */
+.gradient-loading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(270deg, #ff00cc, #3333ff, #ff00cc);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.scanning-box {
+  margin-top: 30px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.scan-progress {
+  font-size: 2rem;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.scan-icons img {
+  animation: iconFade 0.5s ease;
+}
+
+@keyframes iconFade {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}

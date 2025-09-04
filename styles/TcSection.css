@@ -1,0 +1,296 @@
+.tc-section {
+  color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+}
+body {
+  overflow-x: hidden !important;
+}
+.tc-section h2 {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #ffffff 30%, #d64fb2 60%, #DD3DB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tc-section .highlight {
+  color: #ec4899;
+}
+
+.tc-section .subtitle {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.tc-section .desc {
+  font-size: 18px;
+  color: #A7A7A7;
+  margin-top: 0.25rem;
+}
+
+.tc-section .start-btn {
+  background-color: #A02490;
+  border: 1px solid #E236B6;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.tc-section .start-btn:hover {
+  background-color: #A02490;
+  border: 1px solid #E236B6;
+}
+
+.video-box {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background-color: #0E0F11;
+  border: 2px solid #8E2280;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1350px;
+  margin: 2.5rem auto 0;
+  display: flex;
+  box-shadow: 0 0 20px 0 rgba(124, 58, 237, 0.2);
+  flex-direction: column;
+  padding-top: 28px;
+  overflow: hidden;
+}
+
+/* Updated macOS-style Top Bar inside video box */
+
+.top-bar-inside {
+    color: #5c5d5e;
+    z-index: 10;
+    background-color: #16171a;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 0 12px;
+    font-family: SF Pro Text, sans-serif;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+}
+
+.top-bar-inside .top-bar-left,
+.top-bar-inside .top-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-inside span {
+  margin: 0 6px;
+  color: #5C5D5E;
+}
+
+.top-bar-inside .top-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 6px;
+}
+
+
+
+/* Play Icon */
+.custom-play-icon {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.custom-play-icon:hover {
+  transform: scale(1.1);
+}
+
+/* FEATURES */
+.tc-section .features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 4rem auto 0 auto;
+  max-width: 1150px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .tc-section .features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .tc-section h2 {
+    font-size: 28px;
+  }
+  .tc-section .subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .tc-section .desc {
+    margin-top: 0.5px;
+    font-size: 15px;
+  }
+}
+
+/* FEATURE BOX */
+.tc-section .feature-box {
+  text-align: left;
+  background-color: #1B1B1B;
+  border: 1px solid #922683;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.tc-section .feature-box .icon-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.tc-section .feature-box .feature-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.tc-section .feature-box h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tc-section .feature-box p {
+  font-size: 0.875rem;
+  color: #d1d5db;
+}
+
+/* Decorative Background Circles */
+.service-circle-left,
+.service-circle-right {
+  position: absolute;
+  border-radius: 50%;
+  background: #2A102A;
+  filter: blur(30px);
+  z-index: 0;
+}
+
+.service-circle-left {
+  width: 250px;
+  height: 250px;
+  top: 64%;
+  left: -7%;
+  z-index: -1;
+}
+
+.service-circle-right {
+  width: 350px;
+  height: 350px;
+  bottom: -34%;
+  right: -10%;
+  z-index: -1;
+}
+
+
+/* 🔽 WiFi Dropdown Panel */
+.wifi-dropdown {
+  position: absolute;
+  top: 36px;
+  right: 60px;
+  width: 240px;
+  background: #16171A;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  font-family: 'Segoe UI', sans-serif;
+  color: #d1d5db;
+  padding: 12px 0;
+  overflow: hidden;
+  text-align: left; /* ✅ Left aligned */
+  animation: fadeIn 0.25s ease-out;
+}
+
+/* 🔍 Search Input */
+.wifi-search {
+    color: #ccc;
+    background-color: #1e1f21;
+    border: none;
+    border-radius: 6px;
+    width: 92%;
+    margin: 0px 10px 10px 10px;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+/* 🏷️ Section Title */
+.section-title {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6B7280;
+  padding: 6px 16px 4px;
+}
+
+/* 🔹 Dropdown Items */
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #E5E7EB;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background: #1F1F1F;
+}
+
+.dropdown-item img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* ➖ Section Divider */
+.dropdown-section {
+  border-top: 1px solid #2B2C2F;
+  padding-top: 8px;
+}
+
+/* 🌫️ Faded Links */
+.faded {
+  color: #777;
+}
+
+/* ✨ Smooth Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 767px) {
+ .service-circle-right {
+  right: 0%;
+  z-index: -1;
+}
+
+}

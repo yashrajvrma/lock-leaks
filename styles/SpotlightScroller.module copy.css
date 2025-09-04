@@ -1,0 +1,124 @@
+/* styles/SpotlightScroller.module.css */
+
+.containerSpotlight {
+  --spotlight-bg: rgba(20, 22, 23, 0.9);
+  --spotlight-border: rgba(156, 122, 255, 0.3);
+  --text-outside: rgba(255, 255, 255, 0.3);
+  --text-inside: rgba(255, 255, 255, 0.9);
+  --highlight-color: rgb(197, 50, 157);
+  
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contentRow {
+  margin-bottom: 15px;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contentScroll {
+  display: flex;
+  animation: smoothScroll 25s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+
+.contentRow:hover .contentScroll {
+  animation-play-state: paused;
+}
+
+.contentItem {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--text-outside);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.contentItem.highlight {
+  border: 1px solid var(--highlight-color);
+  color: var(--highlight-color);
+  position: relative;
+  padding-left: 35px;
+}
+
+.contentItem.highlight::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  color: var(--highlight-color);
+  font-size: 14px;
+}
+
+.contentItem.highlight:hover,
+.contentItem.highlight.in-spotlight:hover {
+  background-color: var(--highlight-color);
+  color: white !important;
+}
+
+.contentItem.highlight:hover::before,
+.contentItem.highlight.in-spotlight:hover::before {
+  color: white !important;
+}
+
+.contentItem.inSpotlight {
+  color: var(--text-inside);
+  text-shadow: 0 0 8px rgba(156, 122, 255, 0.5);
+}
+
+.contentItem.highlight.inSpotlight {
+  color: var(--highlight-color);
+}
+
+@keyframes smoothScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.spotlight {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(
+    circle,
+    transparent 0%,
+    transparent 40%,
+    var(--spotlight-bg) 70%
+  );
+  box-shadow: 0 0 0 1px var(--spotlight-border);
+}
+
+@media (max-width: 768px) {
+  .contentItem {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+  
+  .contentRow {
+    height: 40px;
+  }
+  
+  .spotlight {
+    width: 280px;
+    height: 280px;
+  }
+}

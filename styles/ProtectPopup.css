@@ -1,0 +1,221 @@
+.protect-content-section {
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 50px;
+}
+
+.left-col {
+  background-color: #2F2F2F;
+  color: white;
+  padding: 40px;
+  height: 80vh;
+}
+
+.right-col {
+  background: linear-gradient(to bottom, white, #CE3FA6);
+  padding: 40px;
+  height: 80vh;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex; /* Always flex – conditionally shown by React */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #404040;
+  color: white;
+  border-radius: 10px;
+  max-width: 950px;
+  width: 90%;
+  height: 675px;
+  padding: 40px 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, white, #ECA7E2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-field {
+    color: #fff;
+    background-color: #2f2f2f;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.popup-image {
+  max-width: 80%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.popup-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #CF3CA6;
+  padding: 0px 15px;
+  border-radius: 6px;
+}
+
+.popup-heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.popup-description,
+.popup-instruction {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.profile-preview-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.identity-box {
+    background-color: #5A5858;
+    max-width: 450px;
+    line-height: 37px;
+    border-radius: 25px;
+}
+
+.show-popup-btn {
+  background-color: #CF3CA6;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.show-popup-btn:hover {
+  background-color: #b02c91;
+  color: #fff;
+}
+.step-verification-checklist {
+  text-align: center;
+}
+
+.checklist-points {
+  list-style: disc;
+  padding-left: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.id-icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.step4-heading {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    font-size: 26px;
+}
+.id-icon-row {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+.cnic-preview-image {
+  display: block;
+  margin-left: 110px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+
+.step6-icons .text-center {
+  width: 30%;
+}
+/* Centering the Facial Image */
+.step6-facial-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+/* Custom Class for Text Styling */
+.text-custom {
+  color: #C6C6C6 !important; /* Apply the text color */
+  font-weight: 500; /* Optional - adjust as needed */
+}
+
+/* Styling for the Text Center and Spacing */
+.step6-icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.step6-icons .text-center {
+  width: 30%;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+  .popup-content {
+    height: 630px;
+    padding: 40px 20px;
+}
+  .step4-heading {
+      font-size: 22px;
+  }
+  .cnic-preview-image {
+    margin-left: 0px;
+    max-width: 98%;
+}
+.right-col {
+    height: 20vh;
+    padding: 40px;
+}
+.left-col {
+    height: 20vh;
+    padding: 40px;
+}
+}

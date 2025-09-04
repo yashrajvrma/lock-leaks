@@ -1,0 +1,284 @@
+.how-it-works-section {
+  color: #fff;
+  padding: 60px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.how-it-works-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subheading {
+  color: #C52BAF;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.how-it-works-heading h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.timer-icon {
+  width: 6%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.description {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.step-box {
+    background: #1D2021;
+    border: 1px solid #c52baf;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.step-label-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.step-icon {
+    width: 20%;
+    height: auto;
+}
+.step-label {
+  display: inline-block;
+  background: #C52BAF;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 12px;
+}
+
+.step-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.step-box p {
+    color: #aaa;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.offer-box {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #3C3C3C, #3C3C3C);
+  border-radius: 20px;
+  padding: 60px;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+.offer-box {
+  position: relative; /* Required for absolute blobs */
+  display: flex;
+  flex-wrap: wrap;
+  background: #3C3C3C;
+  border-radius: 20px;
+  padding: 60px;
+  gap: 30px;
+  align-items: flex-start;
+  overflow: hidden; /* Hide blob overflow */
+}
+
+/* Common blob style */
+.offer-box::before,
+.offer-box::after {
+  content: "";
+  position: absolute;
+  background-color: #c12baa6b;
+  opacity: 1;
+  filter: blur(100px);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  z-index: 01;
+}
+
+/* Top right blob */
+.offer-box::before {
+  top: -80px;
+  right: -80px;
+}
+
+/* Bottom left blob */
+.offer-box::after {
+  bottom: -80px;
+  left: -80px;
+}
+
+/* Center blob (extra div required) */
+.offer-box .blob-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .offer-box {
+  gap: 0px;
+}
+.offer-benefits {
+    margin-top: 18px;
+}
+}
+
+
+
+
+.offer-left {
+    flex: 2;
+    max-width: 60%;
+}
+
+.offer-timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #fff;
+  background: #1d2021;
+  border-radius: 999px;
+  width: 65%;
+  margin-bottom: 15px;
+  padding: 6px 14px;
+  font-size: 16px;
+}
+
+
+.offer-left h3 {
+   font-size: 44px;
+  font-weight: 700;
+  background: linear-gradient(to left, #ffffff 40%, #E39BD9 50%, #C731B1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  color: #c75df8;
+}
+
+.offer-left p {
+    color: #ccc;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons button {
+  background: #C52BAF;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.offer-benefits {
+    color: #ccc;
+    background: #1d2021;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 250px;
+    padding: 37px;
+}
+
+.offer-benefits h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.offer-benefits ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.benefit-icon {
+    width: 18%;
+    height: auto;
+    margin-top: 4px;
+}
+.offer-benefits ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0; /* This ensures no left spacing */
+}
+/* Responsive styles for mobile */
+@media (max-width: 767.99px) {
+  .offer-box {
+    padding: 10px;
+}
+.offer-left {
+    flex: unset;
+    max-width: 99%;
+}
+.offer-left h3 {
+    font-size: 24px;
+}
+.offer-left p {
+    color: #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+.offer-timer {
+    width: 69%;
+    font-size: 14px;
+}
+.timer-icon {
+    width: 11%;
+    height: auto;
+    margin-right: 0px;
+}
+.offer-benefits {
+    padding: 10px;
+}
+.benefit-icon {
+    width: 11%;
+    height: auto;
+    margin-top: 4px;
+}
+}

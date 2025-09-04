@@ -1,0 +1,246 @@
+/* styles/BlogInner.css */
+.blog-inner {
+  color: #fff;
+  /* font-family: 'Poppins', sans-serif; */
+  padding: 20px 0;
+}
+
+.blog-inner .breadcrumb {
+  background: transparent;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.blog-inner .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #999;
+  padding: 0 8px;
+}
+
+.blog-inner .breadcrumb-item a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.blog-inner .breadcrumb-item.active {
+  color: #d59bff;
+}
+
+.blog-inner .post-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.blog-inner .post-badge {
+  background: transparent;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.blog-inner .post-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.blog-inner .post-date {
+  font-size: 14px;
+  color: #aaa;
+  margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+/* Unique styles for the extra section */
+.blog-inner-extra {
+  font-family: 'Poppins', sans-serif;
+}
+
+.blog-inner-extra-heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.blog-inner-extra-desc {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.blog-inner-extra-right .extra-card {
+  background: linear-gradient(180deg, #000000 0%, #422f43 50%, #8c6388 100%);
+  border-radius: 20px;
+  border: 5px solid #867a86;
+  padding: 20px 50px;
+  
+  color: #fff;
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.2),
+    inset 0 -15px 20px #ae96ad; /* subtle bottom color glow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+/* .blog-inner-extra-right .extra-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+} */
+
+.extra-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.extra-card-btn {
+  background: linear-gradient(90deg, #523051, #b23ca4);
+  color: #fff;
+  border: 5px solid #8c6388;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* .extra-card-btn:hover {
+  background: linear-gradient(90deg, #ff80bf, #c066ff);
+  transform: translateY(-2px);
+} */
+
+.extra-card-body {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.extra-card-msg {
+  font-size: 14px;
+  margin: 0;
+  color: #000;
+}
+
+.extra-card-brand {
+  font-size: 14px;
+  color: #d59bff;
+}
+
+.extra-card-offer {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff66b3;
+  margin-bottom: 8px;
+}
+
+.extra-card-follow {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.extra-card-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.extra-card-person-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.extra-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-card-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.extra-card-role {
+  font-size: 12px;
+  color: #626262;
+}
+
+.extra-card-brand-logo {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+.extra-card-italic {
+  font-size: 14px;
+  font-style: italic;
+}
+.discount-heading {
+  display: flex;
+  align-items: center;       /* vertical centering */
+  justify-content: center;   /* horizontal centering */
+  gap: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* Stylish heading */
+.stylish-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;       
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  text-shadow: 1px 1px 3px #422f43aa;
+}
+
+/* Justify all paragraphs */
+.justified {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* White divider line */
+.white-divider {
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 1rem 0;
+  opacity: 0.5;
+}
+
+/* Custom bullet list style */
+.custom-bullets {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+  list-style-type: disc;
+  color: #b59ab3; /* soft lilac bullet color */
+  font-weight: 600;
+}
+
+.custom-bullets li {
+  margin-bottom: 0.3rem;
+}

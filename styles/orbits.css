@@ -1,0 +1,323 @@
+
+/* Start orbit Section */
+
+.orbit-section::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #2A102A;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+.orbit-section::after {
+  content: "";
+  position: absolute;
+  top: 56%;
+  left: 53%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #2A102A;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+
+
+.orbit-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: 0; */
+}
+
+
+/* Buttons */
+.center-buttons-orbit {
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px !important;
+    display: flex;
+    margin-right: -27px;
+}
+/* Start Free Button */
+.btn-start-1 {
+  background-color: #c52baf;
+  border: 1px solid #c52baf !important;
+  color: white;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  z-index: 9999;
+
+}
+
+.btn-start-1:hover {
+  background-color: rgba(163, 34, 144, 0) !important;
+  border: 1px solid #c52baf;
+
+}
+
+/* For Agencies Button */
+.btn-login-1 {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #c52baf;
+  padding: 8px 40px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.btn-login-1:hover {
+  background-color: #c52baf !important;
+  color: white;
+}
+
+
+.orbit-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 158vh; */
+    padding-top: 526px;
+    padding-bottom: 362px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.orbit {
+  position: absolute;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 50%;
+  animation: rotate 60s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Orbit 1: Clear & sharp */
+.orbit-1 {
+  width: 647px;
+  height: 643px;
+  animation-duration: 50s;
+  border-color: #fff5fe;
+  filter: none;
+}
+
+/* Orbit 2: Slight blur */
+.orbit-2 {
+  width: 762px;
+  height: 763px;
+  animation-duration: 50s;
+  border-color: #8f778c8e;
+  filter: none;
+}
+
+/* Orbit 3: More blur */
+.orbit-3 {
+  width: 919px;
+  height: 920px;
+  animation-duration: 50s;
+  border-color: #8f778c46;
+  filter: none;
+}
+
+
+
+.planet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  /* filter: drop-shadow(0 0 6px #c52baf); */
+}
+.center-icon {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  /* filter: drop-shadow(0 0 8px #c52baf); */
+}
+
+/* Orbit-1 (radius ~323px) */
+.orbit-1-p1 { transform: rotate(0deg) translate(323px) rotate(0deg); }       /* North */
+.orbit-1-p2 { transform: rotate(180deg) translate(323px) rotate(-180deg); } /* South */
+
+/* Orbit-2 (radius ~381px) */
+.orbit-2-p1 { transform: rotate(292.5deg) translate(381px) rotate(-292.5deg); } /* West North-West */
+.orbit-2-p2 { transform: rotate(67.5deg) translate(381px) rotate(-67.5deg); }   /* East North-East */
+
+/* Orbit-3 (radius ~460px) */
+.orbit-3-p1 { transform: rotate(315deg) translate(460px) rotate(-315deg); } /* North-West */
+.orbit-3-p2 { transform: rotate(135deg) translate(460px) rotate(-135deg); } /* South-East */
+.orbit-3-p3 { transform: rotate(240deg) translate(460px) rotate(-240deg); }
+
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+
+/* Star styles */
+/* .star {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  z-index: 1;
+  opacity: 0.8;
+  animation: blink 2.5s infinite ease-in-out;
+} */
+
+/* Left stars */
+/* .star-left-1 { top: 12%; left: 8%; }
+.star-left-2 { top: 42%; left: 3%; }
+.star-left-3 { bottom: 15%; left: 10%; } */
+
+/* Right stars */
+/* .star-right-1 { top: 10%; right: 10%; }
+.star-right-2 { top: 20%; right: 23%; }
+.star-right-3 { bottom: 18%; right: 6%; } */
+
+/* Blinking animation */
+@keyframes blink {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50%      { opacity: 1; transform: scale(1.3); }
+}
+
+.orbit-top-banner {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+  padding: 0 20px;
+  max-width: 700px;
+}
+
+
+/* Gradient Border Button */
+.piracy-btn {
+  background: transparent;
+  padding: 6px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border: 1px solid #965f8e; /* optional white border */
+
+  /* Gradient Text */
+  background: linear-gradient(90deg, #ffffff, #C52BAF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  transition: 0.3s ease;
+}
+
+
+
+/* Heading */
+.piracy-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4;
+
+  /* Gradient Text */
+  background: linear-gradient(90deg, #ffffff, #C52BAF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* Gradient Text in Heading */
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(90deg, #C52BAF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtext */
+.piracy-subtext {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 8px;
+}
+
+
+@media (max-width: 766.98px) {
+    .orbit-section {
+        height: 75vh !important;
+        padding-top: 185px !important;
+        padding-bottom: 0px !important;
+        overflow: hidden !important;
+    }
+    .orbit-top-banner {
+    left: 0% !important;
+    transform: translateX(-0%) !important;
+}
+ 
+  .orbit-1-p1,
+  .orbit-1-p2,
+  .orbit-2-p1,
+  .orbit-2-p2,
+  .orbit-3-p1,
+  .orbit-3-p2,
+  .orbit-3-p3 {
+    display: none !important;
+  }
+  .orbit {
+    display: none !important;
+}
+.center-buttons-orbit {
+    justify-content: center;
+    gap: 18px;
+    margin-right: 0px;
+    display: flex;
+    margin-top: 30px !important;
+}
+.center-icon {
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
+}
+.piracy-heading {
+        font-size: 30px !important;
+        line-height: 32px;
+    }
+.piracy-subtext{
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+}
+}
+

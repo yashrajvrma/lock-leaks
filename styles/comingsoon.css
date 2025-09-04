@@ -1,0 +1,102 @@
+/* Fullscreen Coming Soon Layout */
+.cs-landing {
+  background-color: #0D0A14;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.cs-heading {
+  font-size: 90px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Gradient Text */
+.cs-heading-coming {
+  background: linear-gradient(to bottom, #7D206F 50%, #ffffff 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cs-heading-soon {
+  background: linear-gradient(to bottom, #ffffff 40%, #7D206F 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtext */
+.cs-subtext {
+  font-size: 18px;
+  color: #bdbdbd;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+/* Sprinkle Drops */
+.cs-sprinkle {
+  position: absolute;
+  top: -20px;
+  width: 10px;
+  height: 15px;
+  background-color: #864380;
+  animation-name: cs-sprinkleFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+@keyframes cs-sprinkleFall {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cs-heading {
+    font-size: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cs-subtext {
+    font-size: 16px;
+  }
+}
+/* ...previous styles remain unchanged... */
+
+.cs-dots {
+  background: linear-gradient(to bottom, #da94cf 20%, #7D2170 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  /* font-size: 64px; */
+  line-height: 1;
+  margin-left: -5px;
+}

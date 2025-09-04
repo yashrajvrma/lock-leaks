@@ -1,0 +1,106 @@
+.dailogs-login-slider-section {
+  width: 90%;
+  max-width: 1150px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 85vh;
+}
+
+.dailogs-login-box {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dailogs-login-box h3 {
+  font-weight: 700;
+}
+
+.dailogs-login-box .form-control {
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.dailogs-login-box .form-control::placeholder {
+  color: #ccc;
+}
+
+.dailogs-btn-login {
+  background-color: #f33bc0 !important;
+  border: solid 1px #f33bc0 !important;
+  border-radius: 8px;
+  padding: 5px 20px;
+  font-weight: 600;
+  width: auto;
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.dailogs-btn-login:hover {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: solid 1px #f33bc0 !important;
+}
+
+.dailogs-btn-back {
+  background-color: #f33bc0;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.dailogs-info-box {
+  background: linear-gradient(to bottom, #ffffff, #F1ACED, #F33BC0CC);
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-inner h4 {
+  font-weight: 00;
+  margin-bottom: 10px;
+  color: #010935;
+}
+
+.carousel-inner p {
+  font-weight: 500;
+  /* margin-bottom: 30px; */
+  color: #2b2b2b;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+  .dailogs-login-slider-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .dailogs-login-box,
+  .dailogs-info-box {
+    border-radius: 20px !important;
+  }
+
+  .carousel-inner {
+    padding: 30px 15px;
+  }
+}

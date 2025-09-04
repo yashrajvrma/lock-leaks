@@ -1,0 +1,42 @@
+/* styles/footer.css */
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.custom-footer {
+    background-color: transparent !important; /* Makes the footer background transparent */
+    color: white; /* Ensures text remains white */
+    border: none; /* Removes any border if needed */
+  }
+  .btn-start-free {
+  background-color: #C52BAF;
+  border: 1px solid #C52BAF !important;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-start-free:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #C52BAF;
+  color: #fff;
+}
+/* Custom underline with blur */
+.nav-link-custom {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link-custom:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0; /* or adjust for alignment */
+  width: 100%;
+  height: 3px;
+  background-color: #905488;
+  filter: blur(2px);
+  border-radius: 2px;
+}

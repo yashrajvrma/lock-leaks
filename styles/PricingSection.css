@@ -1,0 +1,185 @@
+/* Section Styling */
+.pricing-section {
+  padding: 60px 0;
+  /* background-color: #140017; */
+  color: white;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 60px !important;
+  background: linear-gradient(to right, #F344C3 40%, #fd95e5 50%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-subtitle {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #E7E6E7;
+}
+
+/* Card */
+.plan-card {
+  background: linear-gradient(to bottom, #58214E, #2A152A);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Top Section (Title + Desc + Extra Note) */
+.card-content-top {
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 140px;
+  display: flex;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+}
+
+.extra-note {
+  font-size: 15px;
+  font-style: italic;
+  color: #ffffffcc;
+  margin-bottom: 8px;
+}
+
+/* Price */
+.card-price {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* Features List */
+.plan-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.5rem;
+  font-size: 15px;
+}
+
+/* Icon for each feature */
+.check-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Button */
+.custom-btn {
+  background-color: #C047A3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #a63d8c;
+}
+
+/* Toggle Switch Labels */
+.toggle-switch {
+  font-size: 16px;
+  font-weight: 500;
+  color: #bbb;
+}
+
+.toggle-switch .active-toggle {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Plan Badge */
+.plan-badge {
+  color: #fff;
+  white-space: nowrap;
+  background-color: #C52BAF;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+/* === Custom Toggle Switch (Black Knob) === */
+/* === Custom Toggle Switch (Smaller with Black Knob) === */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ECA7E2;
+  transition: 0.4s;
+  border-radius: 26px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #000;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #FF5CD6;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(22px);
+}

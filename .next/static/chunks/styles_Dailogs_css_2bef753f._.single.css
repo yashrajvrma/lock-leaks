@@ -1,0 +1,107 @@
+/* [project]/styles/Dailogs.css [client] (css) */
+.dailogs-login-slider-section {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1150px;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.dailogs-login-box {
+  color: #fff;
+  background-color: #2b2b2b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding: 40px;
+  display: flex;
+}
+
+.dailogs-login-box h3 {
+  font-weight: 700;
+}
+
+.dailogs-login-box .form-control {
+  color: #fff;
+  background-color: #555;
+  border: none;
+  border-radius: 10px;
+}
+
+.dailogs-login-box .form-control::placeholder {
+  color: #ccc;
+}
+
+.dailogs-btn-login {
+  border-radius: 8px;
+  width: auto;
+  padding: 5px 20px;
+  font-weight: 600;
+  transition: all .3s;
+  color: #fff !important;
+  background-color: #f33bc0 !important;
+  border: 1px solid #f33bc0 !important;
+}
+
+.dailogs-btn-login:hover {
+  color: #fff !important;
+  background-color: #0000 !important;
+  border: 1px solid #f33bc0 !important;
+}
+
+.dailogs-btn-back {
+  color: #fff;
+  background-color: #f33bc0;
+  border: none;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+}
+
+.dailogs-info-box {
+  text-align: center;
+  background: linear-gradient(#fff, #f1aced, #f33bc0cc);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.carousel-inner h4 {
+  color: #010935;
+  margin-bottom: 10px;
+  font-weight: 0;
+}
+
+.carousel-inner p {
+  color: #2b2b2b;
+  font-weight: 500;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+@media (width <= 767.98px) {
+  .dailogs-login-slider-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .dailogs-login-box, .dailogs-info-box {
+    border-radius: 20px !important;
+  }
+
+  .carousel-inner {
+    padding: 30px 15px;
+  }
+}
+
+/*# sourceMappingURL=styles_Dailogs_css_2bef753f._.single.css.map*/

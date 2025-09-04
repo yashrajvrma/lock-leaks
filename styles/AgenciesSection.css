@@ -1,0 +1,132 @@
+.Agencies-a2 {
+  color: white;
+  padding: 50px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Agencies-a2-container {
+  /* max-width: 700px; */
+  width: 100%;
+}
+
+.Agencies-a2-badge {
+  border: 1px solid #c52baf;
+  border-radius: 9999px;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 4px 12px 4px 4px;
+  font-size: 0.875rem;
+  display: inline-flex;
+}
+
+.Agencies-a2-badge-new {
+  background-color: #C52BAF;
+  color: white;
+  padding: 0.25rem 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.Agencies-a2-arrow {
+  margin-left: 0.5rem;
+}
+
+.Agencies-a2-heading {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #ffffff 30%, #CC9AC6 60%, #BD4DAE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.Agencies-a2-highlight {
+    color: #a02490;
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+}
+
+.Agencies-a2-highlight:after {
+    content: "";
+    background-image: linear-gradient(90deg, #A12591, #CE64C0);
+    border-radius: 2px;
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 3px;
+}
+.Agencies-a2-subtext {
+    color: #e1dede;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Agencies-a2-subtitle {
+  color: #ffffff;
+  /* font-weight: 600; */
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.Agencies-a2-cta {
+  margin-top: 1.5rem;
+}
+
+.Agencies-a2-button {
+  background-color: #C52BAF;
+  color: white;
+  font-weight: bold;
+  padding: 6px 25px;
+  border: 1px solid #F13ABF;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Agencies-a2-button:hover {
+  background-color: #C52BAF;
+}
+
+.Agencies-a2-footer {
+    color: #D6D6D6;
+    margin-top: 1rem;
+    font-size: 17px;
+}
+.Agencies-a2-gradient-word {
+    background: linear-gradient(90deg, #812275, #e66cc8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  .Agencies-a2-badge {
+    font-size: 12px;
+  }
+  .Agencies-a2-heading {
+    font-size: 22px;
+  }
+  .Agencies-a2-subtext {
+    font-size: 14px;
+  }
+  .Agencies-a2-highlight {
+    font-size: 15px;
+  }
+  .Agencies-a2-footer {
+    font-size: 14px;
+  }
+  .Agencies-a2 {
+    margin-bottom: -30px;
+}
+
+}

@@ -1,0 +1,94 @@
+/* [project]/styles/LoaderPage.css [client] (css) */
+.loader {
+  color: #fff;
+  z-index: 9999;
+  background-color: #0d0a14;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.text {
+  z-index: 2;
+  align-items: center;
+  font-size: 90px;
+  font-weight: 700;
+  display: flex;
+}
+
+.circle-spin {
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 15px 8px 0;
+  animation: 2s linear infinite spin;
+  display: flex;
+  transform: translateY(8px);
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sprinkle {
+  z-index: 1;
+  background-color: #864380;
+  width: 10px;
+  height: 15px;
+  animation-name: sprinkleFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: -20px;
+}
+
+@keyframes sprinkleFall {
+  0% {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100vh)scale(.5);
+  }
+}
+
+@media (width <= 768px) {
+  .text {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 48px;
+  }
+
+  .circle-spin {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    transform: translateY(6px);
+  }
+}
+
+/*# sourceMappingURL=styles_LoaderPage_css_2bef753f._.single.css.map*/

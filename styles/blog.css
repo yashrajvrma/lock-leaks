@@ -1,0 +1,207 @@
+/* Layout */
+/* body {
+  background-color: #15121e;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+} */
+
+.blog-section {
+  background-color: #0D0A14;
+  padding: 60px 0;
+}
+
+.blog-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.blog-tabs-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.blog-tabs {
+  background-color: #0000;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+.blog-tab {
+  background-color: #525152;
+  border: 1px solid #bebebe;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.blog-tab:hover,
+.blog-tab.active {
+  background: #e55cc4;
+  border-color: #e55cc4;
+}
+
+/* Grid */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  background-color: #1e1b2b;
+  border: 1px solid #2a2738;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+/* Image */
+.blog-thumbnail {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.5;
+}
+
+/* Arrow Icon */
+.blog-arrow {
+    color: #aaa;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 44px;
+    right: 24px;
+}
+
+.blog-arrow:hover {
+  color: #fff;
+}
+
+/* Text Area */
+.blog-details {
+    margin: 10px;
+    border: 1px solid #9b9b9b;
+    padding: 15px;
+    border-radius: 9px;
+    background: #292929;
+}
+
+.blog-meta {
+    color: #aaa;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+.blog-badge {
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: transparent;
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Tag-specific colors */
+.tag-fanfix {
+  border: 1px solid #E7B8E1;
+  background-image: linear-gradient(to right, white 15%, #E7B8E1 65%);
+}
+
+.tag-onlyfans {
+  border: 1px solid #0099FF;
+  background-image: linear-gradient(to right, white 15%, #0099FF 65%);
+}
+
+.tag-patreon {
+  border: 1px solid #ff7043;
+  background-image: linear-gradient(to right, white 15%, #ff7043 65%);
+}
+
+.tag-loyalfans {
+  border: 1px solid #FF1C20;
+  background-image: linear-gradient(to right, white 15%, #FF1C20 65%);
+}
+
+.tag-manyvids {
+  border: 1px solid #AF23C1;
+  background-image: linear-gradient(to right, white 15%, #AF23C1 65%);
+}
+.tag-fansly {
+  border: 1px solid #0099FF;
+  background-image: linear-gradient(to right, #0099FF 15%, white 65%);
+}
+
+
+/* Title */
+.blog-title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0;
+}
+.blog-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.pagination-btn {
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+  border: 1px solid #aaa;
+  border-radius: 12px;
+  padding: 4px 8px;  
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.pagination-btn.active {
+  background: linear-gradient(to bottom, #5c4453, #452f3b);
+  border: 1px solid #c5b4d4;
+}
+.blogs-heading {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(to left, #ff67d4 65%, #ffffff 15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.blog-search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.blog-search-input {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 16px;
+    font-size: 14px;
+    background: #221F28;
+}

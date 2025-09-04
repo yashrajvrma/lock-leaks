@@ -1,0 +1,90 @@
+.loader {
+  background-color: #0D0A14;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-size: 90px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.circle-spin {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+  animation: spin 2s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(8px); /* Image slightly lower */
+  margin-top: 15px;
+
+}
+
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Sprinkle Rain Effect */
+.sprinkle {
+  position: absolute;
+  top: -20px;
+  width: 10px;
+  height: 15px;
+  background-color: #864380;
+  animation-name: sprinkleFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+@keyframes sprinkleFall {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+  .text {
+    font-size: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .circle-spin {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    transform: translateY(6px);
+  }
+}

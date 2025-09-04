@@ -1,0 +1,53 @@
+.beforeafter {
+  background-color: #0F0B15;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.beforeafter-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #FFFFFF, #C52BAF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.beforeafter img {
+    border-radius: 12px;
+    width: 585px;
+    max-width: 648px;
+    height: auto;
+}
+
+/* styles/BeforeAfterSection.css */
+.arrow-image {
+  max-width: 80px; /* Adjust as needed */
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .beforeafter-heading {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+/* For mobile view */
+@media (max-width: 767.98px) {
+  .arrow-image {
+    transform: rotate(90deg); /* Rotate arrow for vertical layout */
+ 
+            max-width: 50% !important;
+        transform: rotate(90deg);
+        height: auto !important;
+        width: 60% !important;
+  }
+  .beforeafter img {
+    width: 90%;
+    max-width: 648px;
+    height: auto;
+}
+}

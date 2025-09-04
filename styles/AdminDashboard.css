@@ -1,0 +1,293 @@
+/* Body */
+.admin-dashboard-body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Gradient for text */
+.admin-dashboard-text-gradient {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sidebar */
+.admin-dashboard-sidebar {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+.admin-dashboard-sidebar h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.admin-dashboard-nav-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.admin-dashboard-nav-button i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.admin-dashboard-nav-button:hover,
+.admin-dashboard-nav-button.admin-dashboard-active {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+/* Upgrade button */
+.admin-dashboard-upgrade-btn {
+  background: linear-gradient(
+    135deg,
+    #b04698 10%,
+    #b27ab3 20%,
+    #b27ab3 80%,
+    #893d79 90%
+  );
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.admin-dashboard-upgrade-btn i {
+  margin-right: 8px;
+}
+.admin-dashboard-logo img {
+  width: 99%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* Top Bar */
+.admin-dashboard-top-bar {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.admin-dashboard-user-info {
+  display: flex;
+  align-items: center;
+}
+.admin-dashboard-user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.admin-dashboard-logout-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.admin-dashboard-logout-icon:hover {
+  color: #644460;
+}
+
+/* Stats Row */
+.admin-dashboard-stat-box {
+  background-color: #1a1a1a;
+  padding: 12px 20px;
+  border-radius: 25px;
+}
+
+/* Lists */
+.admin-dashboard-list a {
+  color: white;
+  text-decoration: none;
+}
+.admin-dashboard-list li {
+  color: white;
+}
+
+/* Form (optional for future use) */
+.admin-dashboard-label {
+  font-weight: bold;
+}
+.admin-dashboard-form-control {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+}
+.admin-dashboard-form-control:focus {
+  background-color: #1a1a1a;
+  color: white;
+  box-shadow: none;
+}
+
+/* ============================= */
+/* SEND PDF TAB STYLING          */
+/* ============================= */
+
+/* Send PDF container */
+.send-pdf-tab {
+  color: white;
+}
+
+/* Cards (Manual, Auto, Sent) */
+.send-pdf-card {
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+  border: 1px solid #2a262a;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+}
+.send-pdf-card:hover {
+  transform: translateY(-3px);
+}
+.send-pdf-card h6 {
+  font-size: 14px;
+  color: #c4b1c1;
+  margin-bottom: 10px;
+}
+.send-pdf-value {
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Search Bar */
+.send-pdf-search input {
+  background-color: #1a1a1a;
+  border: 1px solid #2a262a;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+.send-pdf-search input:focus {
+  background-color: #1a1a1a;
+  border-color: #644460;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Table Styling */
+.table-dark {
+  background-color: #111;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.table-dark thead {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+.table-dark thead th {
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+.table-dark tbody tr {
+  background-color: #1a1a1a;
+}
+.table-dark tbody tr:nth-child(even) {
+  background-color: #151515;
+}
+.table-dark td {
+  vertical-align: middle;
+}
+.table-dark button {
+  background: linear-gradient(90deg, #9a6292, #644460);
+  border: none;
+  border-radius: 12px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+.table-dark button:hover {
+  background: linear-gradient(90deg, #c4b1c1, #9a6292);
+}
+
+/* Pagination */
+.send-pdf-pagination button {
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 1px solid #644460;
+  padding: 6px 12px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #c4b1c1;
+  transition: all 0.3s ease;
+}
+.send-pdf-pagination button:hover {
+  background: linear-gradient(90deg, #644460, #2a262a);
+  color: white;
+}
+
+
+.send-pdf-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.send-pdf-card-row h6 {
+    color: rgb(196, 177, 193);
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.send-pdf-card-row .send-pdf-value {
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.send-pdf-search {
+  position: relative;
+  width: 33%;
+}
+
+.send-pdf-search input::placeholder {
+  color: #fff; 
+  text-align: left; 
+}
+
+.send-pdf-search .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  width: 20px; 
+  height: 20px; 
+  pointer-events: none; 
+}
+.send-pdf-search .form-control {
+    border-radius: 12px;
+    padding: 6px 15px;
+    color: #fff !important;
+    background-color: #1a1a1a00 !important;
+    border: 1px solid #2a262a00 !important;
+}
+
+.send-pdf-search .form-control::placeholder {
+  color: #fff !important;          
+  opacity: 0.7;
+}

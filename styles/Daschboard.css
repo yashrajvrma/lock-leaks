@@ -1,0 +1,135 @@
+/* Body */
+.lockdash-body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Gradient for text */
+.lockdash-text-gradient {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sidebar */
+.lockdash-sidebar {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+.lockdash-sidebar h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.lockdash-nav-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.lockdash-nav-button i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.lockdash-nav-button:hover,
+.lockdash-nav-button.lockdash-active {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+/* Upgrade button */
+.lockdash-upgrade-btn {
+  background: linear-gradient(
+    135deg,
+    #b04698 10%,
+    #b27ab3 20%,
+    #b27ab3 80%,
+    #893d79 90%
+  );
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.lockdash-upgrade-btn i {
+  margin-right: 8px;
+}
+.lockdash-logo img {
+  width: 99%; /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* Top Bar */
+.lockdash-top-bar {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.lockdash-user-info {
+  display: flex;
+  align-items: center;
+}
+.lockdash-user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.lockdash-logout-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.lockdash-logout-icon:hover {
+  color: #644460;
+}
+
+/* Stats Row */
+.lockdash-stat-box {
+  background-color: #1a1a1a;
+  padding: 12px 20px;
+  border-radius: 25px;
+}
+
+/* Lists */
+.lockdash-list a {
+  color: white;
+  text-decoration: none;
+}
+.lockdash-list li {
+  color: white;
+}
+
+/* Form (optional for future use) */
+.lockdash-label {
+  font-weight: bold;
+}
+.lockdash-form-control {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+}
+.lockdash-form-control:focus {
+  background-color: #1a1a1a;
+  color: white;
+  box-shadow: none;
+}

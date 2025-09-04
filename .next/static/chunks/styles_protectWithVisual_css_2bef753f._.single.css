@@ -1,0 +1,211 @@
+/* [project]/styles/protectWithVisual.css [client] (css) */
+.protection-section {
+  background-color: #1d1d1f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.right-image-stack {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.right-positioned-img {
+  will-change: transform;
+  transition: transform .5s ease-in-out;
+  position: absolute;
+}
+
+.detected-leaks-count {
+  text-align: center;
+  color: #fff;
+  background-color: #ce82c3;
+  border-radius: 40px 40px 0 0;
+  padding: 8px 15px;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.detected-leaks-text {
+  color: #000;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.count {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.percentage {
+  color: #000;
+  background-color: #f9b1ff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  margin-top: 0;
+  padding: 1px;
+  font-size: 13px;
+}
+
+.right-positioned-img.animation-left {
+  animation: 3s ease-in-out infinite alternate moveTopToBottomRight;
+  top: 35%;
+  left: 7%;
+}
+
+.right-positioned-img.animation-center {
+  animation: 3s ease-in-out infinite alternate moveTopToBottomRight;
+  top: 65%;
+  left: 45%;
+}
+
+.right-positioned-img.animation-right {
+  animation: 3s ease-in-out infinite alternate moveBottomToTopRight;
+  top: 65%;
+  left: 25%;
+}
+
+.right-positioned-img.animation-right2 {
+  animation: 3s ease-in-out infinite alternate moveBottomToTopRight;
+  top: 32%;
+  left: 75%;
+}
+
+.right-positioned-img.animation-right3 {
+  animation: 3s ease-in-out infinite alternate moveBottomToTopRight;
+  top: 70%;
+  left: 65%;
+}
+
+@keyframes moveTopToBottomRight {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveBottomToTopRight {
+  0% {
+    transform: translateY(30px);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (width <= 766.98px) {
+  .detected-leaks-count {
+    top: 50%;
+    left: 45% !important;
+  }
+
+  .right-positioned-img.animation-left {
+    left: -11% !important;
+  }
+
+  .right-positioned-img.animation-right {
+    left: 6% !important;
+  }
+
+  .right-positioned-img.animation-center {
+    top: 65% !important;
+    left: 38% !important;
+  }
+
+  .top-description {
+    margin: 7px auto 0 !important;
+    font-size: 14px !important;
+  }
+
+  .protection-top-intro {
+    margin-bottom: 35px !important;
+  }
+}
+
+.right-image-stack:hover .animation-left {
+  transform: translate(-5px, 25px) !important;
+}
+
+.right-image-stack:hover .animation-center {
+  transform: translate(-5px, -10px) !important;
+}
+
+.right-image-stack:hover .animation-right {
+  transform: translate(-32px, 10px) !important;
+}
+
+.right-image-stack:hover .animation-right2 {
+  transform: translate(-25px, -32px) !important;
+}
+
+.right-image-stack:hover .animation-right3 {
+  transform: translate(-5px, -25px) !important;
+}
+
+.protection-top-intro {
+  color: #fff;
+  background-color: #0f0b15;
+}
+
+.top-badge {
+  z-index: 0;
+  color: #fff;
+  background: linear-gradient(#0b0b0d, #0b0b0d) padding-box padding-box, linear-gradient(90deg, #c52baf, #fff) border-box;
+  border: 1px solid #0000;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.top-title {
+  margin-bottom: 0;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #c52baf, #fff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.top-description {
+  color: #ccc;
+  max-width: 720px;
+  margin: 20px auto 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (width <= 766.98px) {
+  .right-image-stack {
+    position: relative;
+    height: 344px !important;
+    margin-top: -72px !important;
+  }
+}
+
+/*# sourceMappingURL=styles_protectWithVisual_css_2bef753f._.single.css.map*/
