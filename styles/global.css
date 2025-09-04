@@ -1,19 +1,25 @@
 /* Base styles */
 body {
-  background-color: #0F0B15;
+  background-color: #0f0b15;
   background-size: cover;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   color: white;
   height: 100vh;
-  position: relative; 
+  position: relative;
 }
 body {
-  font-family: 'Inter', sans-serif; 
+  font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, a {
-  font-family: 'Poppins', sans-serif; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Poppins", sans-serif;
 }
 body {
   position: relative;
@@ -27,14 +33,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #24212A;
+  background: #24212a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #7B4878;
+  background-color: #7b4878;
   border-radius: 10px;
 }
-
 
 @keyframes moveCircle {
   0% {
@@ -66,7 +71,6 @@ body {
   }
 }
 
-
 /* Buttons */
 .btn-login {
   background-color: rgba(0, 0, 0, 0);
@@ -81,7 +85,6 @@ body {
 .btn-login:hover {
   background-color: #c52baf;
   border: 1px solid #c52baf;
-
 }
 
 .btn-start {
@@ -97,8 +100,7 @@ body {
 
 .btn-start:hover {
   background-color: #00000000;
-    border: 1px solid #c52baf;
-
+  border: 1px solid #c52baf;
 }
 
 /* Optional hero section */
@@ -117,14 +119,12 @@ body {
   display: none;
 }
 
-
 /* Responsive adjustments */
 @media (max-width: 766.98px) {
   .btn-login,
   .btn-start {
     display: none !important;
   }
-
 
   .nav-link-custom {
     font-size: 16px;
@@ -135,51 +135,48 @@ body {
     display: none;
   }
 
-
   .info-boxes {
     opacity: 0;
-    transition: all .5s ease-out;
+    transition: all 0.5s ease-out;
     transform: translateY(100px);
     margin-top: 65px;
-}
-html.body {
-  overflow-x: hidden !important;
-}
-.bubble3 {
+  }
+  html.body {
+    overflow-x: hidden !important;
+  }
+  .bubble3 {
     top: 240px;
     left: 36px;
-}
-.bubble2 {
+  }
+  .bubble2 {
     top: 85px !important;
     left: 63px !important;
-}
-.arrow1 {
+  }
+  .arrow1 {
     display: none;
-}
-.arrow2 {
+  }
+  .arrow2 {
     display: none;
-
-}
-.gradient-heading
- {
+  }
+  .gradient-heading {
     font-size: 35px !important;
     line-height: 40px !important;
-}
-.description {
+  }
+  .description {
     color: #fff;
     margin: 20px 0;
     font-size: 16px !important;
-}
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     max-width: 920px !important;
   }
-  .btn-login{
+  .btn-login {
     display: none;
   }
-  .btn-start{
+  .btn-start {
     display: none;
   }
 }
@@ -206,11 +203,12 @@ html.body {
     content: none;
   }
 }
-
-
-
-
-
-
-
-
+/* 
+.btn-pink {
+  background-color: #e83e8c;
+  color: #fff;
+}
+.btn-pink:hover {
+  background-color: #c83273;
+  color: #fff;
+} */

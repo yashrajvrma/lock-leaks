@@ -1,0 +1,81 @@
+/* [project]/styles/AgencyProtectionSection.css [client] (css) */
+.agency-protection-section {
+  color: #fff;
+  z-index: 1;
+  background: linear-gradient(#1e0f22, #180e1c);
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.agency-protection-section:before {
+  content: "";
+  z-index: -1;
+  -webkit-mask-composite: destination-out;
+  background: linear-gradient(#d266c4, #483e4a);
+  border-radius: 25px;
+  padding: 1px;
+  position: absolute;
+  inset: 0;
+  mask-image: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+  mask-position: 0 0, 0 0;
+  mask-size: auto, auto;
+  mask-repeat: repeat, repeat;
+  mask-clip: content-box, border-box;
+  mask-origin: content-box, border-box;
+  mask-composite: exclude;
+  mask-mode: match-source, match-source;
+}
+
+.inner-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-logo {
+  display: inline-block;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.gradient-creators, .gradient-business {
+  background: linear-gradient(to right, #b4b4b4, #ffc8f7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.section-description {
+  color: #a39ea4;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.secure-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #d631be;
+  border: none;
+  border-bottom: 2px solid #ffffff80;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.secure-btn:hover {
+  opacity: .9;
+}
+
+/*# sourceMappingURL=styles_AgencyProtectionSection_css_2bef753f._.single.css.map*/

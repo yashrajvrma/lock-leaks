@@ -1,0 +1,9 @@
+__turbopack_load_page_chunks__("/pricing", [
+  "static/chunks/[root-of-the-server]__ae616634._.js",
+  "static/chunks/node_modules_next_5ccbed4d._.js",
+  "static/chunks/node_modules_react-dom_82bb97c6._.js",
+  "static/chunks/node_modules_2a5cf4bb._.js",
+  "static/chunks/_ae29055b._.css",
+  "static/chunks/pages_pricing_5771e187._.js",
+  "static/chunks/pages_pricing_028a8d3d._.js"
+])

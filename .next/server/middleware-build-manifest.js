@@ -21,25 +21,18 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages__app_5771e187._.js",
       "static/chunks/pages__app_48be310d._.js"
     ],
-    "/_error": [
-      "static/chunks/[root-of-the-server]__527cd323._.js",
+    "/dashboard": [
+      "static/chunks/node_modules_next_717ebb27._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_a51498a5._.js",
-      "static/chunks/[root-of-the-server]__923cb372._.js",
-      "static/chunks/pages__error_5771e187._.js",
-      "static/chunks/pages__error_c5ed9705._.js"
+      "static/chunks/node_modules_axios_lib_9aa2336a._.js",
+      "static/chunks/node_modules_209c94be._.js",
+      "static/chunks/[root-of-the-server]__aefb88cc._.js",
+      "static/chunks/_18b37cba._.css",
+      "static/chunks/pages_dashboard_5771e187._.js",
+      "static/chunks/pages_dashboard_846b8cbb._.js"
     ],
-    "/start": [
-      "static/chunks/[root-of-the-server]__dc46a292._.js",
-      "static/chunks/node_modules_next_5ccbed4d._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_2a5cf4bb._.js",
-      "static/chunks/styles_1bb446e3._.css",
-      "static/chunks/pages_start_5771e187._.js",
-      "static/chunks/pages_start_32645e86._.js"
-    ],
-    "/start-free": [
-      "static/chunks/[root-of-the-server]__5a3e5228._.js",
+    "/login": [
+      "static/chunks/[root-of-the-server]__7505bc8d._.js",
       "static/chunks/node_modules_next_dist_compiled_2d271c52._.js",
       "static/chunks/node_modules_next_dist_shared_lib_c6e9c76d._.js",
       "static/chunks/node_modules_next_dist_client_f131196d._.js",
@@ -47,11 +40,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/node_modules_next_5412f653._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
       "static/chunks/node_modules_axios_lib_9aa2336a._.js",
-      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_e33d9f9e._.js",
-      "static/chunks/node_modules_1f1f0192._.js",
-      "static/chunks/styles_1bb446e3._.css",
-      "static/chunks/pages_start-free_5771e187._.js",
-      "static/chunks/pages_start-free_b0a4b670._.js"
+      "static/chunks/node_modules_d0dc54cc._.js",
+      "static/chunks/styles_3a256ba1._.css",
+      "static/chunks/pages_login_5771e187._.js",
+      "static/chunks/pages_login_0fb1d892._.js"
     ]
   },
   "devFiles": [],

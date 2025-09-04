@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import '../styles/Daschboard.css';
-import PricingSection from './PricingSection'; // Make sure this path is correct
-import Link from 'next/link';
+import React, { useState } from "react";
+import "../styles/Daschboard.css";
+import PricingSection from "./PricingSection"; // Make sure this path is correct
+import Link from "next/link";
+import ProfileData from "./profile";
 
 const Dashboard: React.FC = () => {
-  const [activeTab, setActiveTab] = useState('Dashboard');
+  const [activeTab, setActiveTab] = useState("Dashboard");
 
   const handleTabClick = (tab: string) => {
     setActiveTab(tab);
@@ -14,47 +15,56 @@ const Dashboard: React.FC = () => {
     <div className="lockdash-body">
       <div className="container-fluid">
         <div className="row">
-
           {/* Sidebar */}
           <div className="col-md-4 col-lg-2 lockdash-sidebar">
-          <div className="lockdash-logo">
-            <Link href="/">
-              <img src="/images/lockleaks.svg" alt="Lock Leaks Logo" />
-            </Link>
-          </div>
+            <div className="lockdash-logo">
+              <Link href="/">
+                <img src="/images/lockleaks.svg" alt="Lock Leaks Logo" />
+              </Link>
+            </div>
 
             <a
               href="#"
-              className={`lockdash-nav-button ${activeTab === 'Dashboard' ? 'lockdash-active' : ''}`}
-              onClick={() => handleTabClick('Dashboard')}
+              className={`lockdash-nav-button ${
+                activeTab === "Dashboard" ? "lockdash-active" : ""
+              }`}
+              onClick={() => handleTabClick("Dashboard")}
             >
               <i className="fab fa-google"></i> Dashboard
             </a>
             <a
               href="#"
-              className={`lockdash-nav-button ${activeTab === 'My Profile' ? 'lockdash-active' : ''}`}
-              onClick={() => handleTabClick('My Profile')}
+              className={`lockdash-nav-button ${
+                activeTab === "My Profile" ? "lockdash-active" : ""
+              }`}
+              onClick={() => handleTabClick("My Profile")}
             >
               <i className="fa fa-user"></i> My Profile
             </a>
             <a
               href="#"
-              className={`lockdash-nav-button ${activeTab === 'Support' ? 'lockdash-active' : ''}`}
-              onClick={() => handleTabClick('Support')}
+              className={`lockdash-nav-button ${
+                activeTab === "Support" ? "lockdash-active" : ""
+              }`}
+              onClick={() => handleTabClick("Support")}
             >
               <i className="fa fa-comment-dots"></i> Support
             </a>
             <a
               href="#"
-              className={`lockdash-nav-button ${activeTab === 'Subscriptions' ? 'lockdash-active' : ''}`}
-              onClick={() => handleTabClick('Subscriptions')}
+              className={`lockdash-nav-button ${
+                activeTab === "Subscriptions" ? "lockdash-active" : ""
+              }`}
+              onClick={() => handleTabClick("Subscriptions")}
             >
               <i className="fa fa-star"></i> Subscriptions
             </a>
             <a
               href="#"
-              className={`lockdash-nav-button ${activeTab === 'Settings' ? 'lockdash-active' : ''}`}
-              onClick={() => handleTabClick('Settings')}
+              className={`lockdash-nav-button ${
+                activeTab === "Settings" ? "lockdash-active" : ""
+              }`}
+              onClick={() => handleTabClick("Settings")}
             >
               <i className="fa fa-cog"></i> Settings
             </a>
@@ -67,7 +77,6 @@ const Dashboard: React.FC = () => {
 
           {/* Main Content */}
           <div className="col-md-8 col-lg-10 p-4">
-
             {/* Top Bar */}
             <div className="lockdash-top-bar">
               <div className="lockdash-user-info">
@@ -78,7 +87,7 @@ const Dashboard: React.FC = () => {
             </div>
 
             {/* Conditional Rendering for Tabs */}
-            {activeTab === 'My Profile' && (
+            {activeTab === "My Profile" && (
               <>
                 {/* Stats Row */}
                 <div className="row mb-4">
@@ -90,7 +99,9 @@ const Dashboard: React.FC = () => {
                   </div>
                   <div className="col-md-4 mb-2">
                     <div className="lockdash-stat-box d-flex justify-content-between align-items-center">
-                      <span className="lockdash-text-gradient">Stage Names:</span>
+                      <span className="lockdash-text-gradient">
+                        Stage Names:
+                      </span>
                       <span className="lockdash-text-gradient">982</span>
                     </div>
                   </div>
@@ -145,22 +156,23 @@ const Dashboard: React.FC = () => {
                     </div>
                   </div>
                 </div>
+
+                <ProfileData />
               </>
             )}
 
-            {activeTab === 'Dashboard' && <h4>Dashboard Content Here</h4>}
+            {activeTab === "Dashboard" && <h4>Dashboard Content Here</h4>}
 
-            {activeTab === 'Support' && <h4>Support Content Here</h4>}
+            {activeTab === "Support" && <h4>Support Content Here</h4>}
 
-            {activeTab === 'Subscriptions' && (
+            {activeTab === "Subscriptions" && (
               <>
                 <h4>Subscriptions</h4>
                 <PricingSection hideStartFree={true} />
               </>
             )}
 
-            {activeTab === 'Settings' && <h4>Settings Content Here</h4>}
-
+            {activeTab === "Settings" && <h4>Settings Content Here</h4>}
           </div>
         </div>
       </div>

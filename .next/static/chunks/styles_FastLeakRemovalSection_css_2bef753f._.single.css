@@ -1,0 +1,246 @@
+/* [project]/styles/FastLeakRemovalSection.css [client] (css) */
+.leak-removal-section-outer {
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 100px;
+  padding: 40px 20px;
+  display: flex;
+}
+
+.leak-removal-row {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  display: flex;
+}
+
+.leak-removal-section {
+  text-align: left;
+  color: #fff;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  flex: 300px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 70px;
+  padding: 40px 20px;
+  position: relative;
+  overflow: visible;
+}
+
+.leak-removal-section:after {
+  content: "";
+  filter: blur(10px);
+  z-index: -9;
+  pointer-events: none;
+  background: #b8479e;
+  border-radius: 240px 240px 0 0;
+  width: 111%;
+  height: 150px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (width <= 768px) {
+  .leak-removal-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leak-removal-section {
+    max-width: 100%;
+  }
+}
+
+@media (width <= 830px) {
+  .leak-removal-section-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leak-removal-section {
+    max-width: 100%;
+  }
+}
+
+.chat-box {
+  background: #2a2a2a;
+  border-top: 1px solid #44413f;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.message {
+  color: #ddd;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  max-width: 83%;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  font-size: 15px;
+  display: flex;
+}
+
+.message.user {
+  background-color: #313232;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+.message.reply {
+  background-color: #313232;
+  justify-content: flex-start;
+  margin-left: auto;
+}
+
+.avatar {
+  border: 1px solid #4f4a4b;
+  border-radius: 50%;
+}
+
+.lock-icon {
+  margin-left: auto;
+}
+
+.leak-input-wrapper {
+  background: linear-gradient(to right, #171919, #161516);
+  border: 1px solid #4f4a4b;
+  border-radius: 40px;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.leak-input-icon {
+  color: #d36bcc;
+  align-items: center;
+  margin-right: 12px;
+  font-size: 18px;
+  display: flex;
+}
+
+.leak-input {
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 4px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.leak-input::placeholder {
+  color: #c089b8;
+  opacity: .8;
+}
+
+.leak-info-text {
+  margin-top: 30px;
+}
+
+.info-title {
+  color: #fff;
+  margin: 60px 0 10px;
+  font-size: 20px;
+}
+
+.info-desc {
+  color: #a0a0a0;
+  font-size: 15px;
+}
+
+@media (width <= 830px) {
+  .leak-removal-section-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leak-removal-section {
+    max-width: 100%;
+  }
+}
+
+.neon-glow-heading {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  pointer-events: none;
+  border-radius: 240px 240px 0 0;
+  width: 30%;
+  padding: 0 40px;
+  font-size: 50px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.neon-glow-heading:after {
+  content: "";
+  filter: blur(20px);
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(#a0a0a0 30%, #b8479e 20% 100%);
+  border-radius: 240px 240px 0 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (width >= 1400px) and (width <= 1614px) {
+  .neon-glow-heading {
+    width: 40% !important;
+  }
+}
+
+@media (width <= 1399.98px) {
+  .neon-glow-heading {
+    width: 38% !important;
+    font-size: 28px !important;
+  }
+}
+
+@media (width <= 1200px) {
+  .neon-glow-heading {
+    width: 36% !important;
+    font-size: 28px !important;
+  }
+}
+
+@media (width <= 920px) {
+  .neon-glow-heading {
+    font-size: 26px !important;
+  }
+}
+
+@media (width <= 830px) {
+  .neon-glow-heading {
+    font-size: 24px !important;
+  }
+}
+
+@media (width <= 720px) {
+  .neon-glow-heading {
+    width: 80% !important;
+    font-size: 22px !important;
+  }
+}
+
+@media (width <= 676px) {
+  .neon-glow-heading {
+    width: 80% !important;
+    font-size: 20px !important;
+  }
+}
+
+/*# sourceMappingURL=styles_FastLeakRemovalSection_css_2bef753f._.single.css.map*/

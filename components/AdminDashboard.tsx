@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "../styles/AdminDashboard.css";
 import Link from "next/link";
+import MyProfile from "./MyProfile";
 
 const AdminDashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Search Engines");
@@ -84,6 +85,15 @@ const AdminDashboard: React.FC = () => {
               onClick={() => handleTabClick("Whitelist")}
             >
               <i className="fa fa-check-circle"></i> Whitelist
+            </a>
+            <a
+              href="#"
+              className={`admin-dashboard-nav-button ${
+                activeTab === "Profile" ? "admin-dashboard-active" : ""
+              }`}
+              onClick={() => handleTabClick("Profile")}
+            >
+              <i className="fa fa-check-circle"></i> My Profile
             </a>
           </div>
 
@@ -209,6 +219,11 @@ const AdminDashboard: React.FC = () => {
             )}
 
             {activeTab === "Whitelist" && <h4>Whitelist Content</h4>}
+            {activeTab === "Profile" && (
+              <h4>
+                <MyProfile />
+              </h4>
+            )}
           </div>
         </div>
       </div>

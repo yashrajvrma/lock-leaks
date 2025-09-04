@@ -801,7 +801,7 @@ const CheckPrivateContentFree: React.FC = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:8080/v1/api/auth/signup",
+        "http://localhost:8000/v1/api/auth/signup",
         requestBody,
         {
           headers: {

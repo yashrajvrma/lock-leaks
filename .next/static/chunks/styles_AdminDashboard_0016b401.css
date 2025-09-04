@@ -1,0 +1,298 @@
+/* [project]/styles/AdminDashboard.css [client] (css) */
+.admin-dashboard-body {
+  color: #fff;
+  background-color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dashboard-text-gradient {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.admin-dashboard-sidebar {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.admin-dashboard-sidebar h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.admin-dashboard-nav-button {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.admin-dashboard-nav-button i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.admin-dashboard-nav-button:hover, .admin-dashboard-nav-button.admin-dashboard-active {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+.admin-dashboard-upgrade-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #b04698 10%, #b27ab3 20% 80%, #893d79 90%);
+  border: none;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+  display: flex;
+}
+
+.admin-dashboard-upgrade-btn i {
+  margin-right: 8px;
+}
+
+.admin-dashboard-logo img {
+  width: 99%;
+  height: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.admin-dashboard-top-bar {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.admin-dashboard-user-info {
+  align-items: center;
+  display: flex;
+}
+
+.admin-dashboard-user-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.admin-dashboard-logout-icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color .3s;
+}
+
+.admin-dashboard-logout-icon:hover {
+  color: #644460;
+}
+
+.admin-dashboard-stat-box {
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  padding: 12px 20px;
+}
+
+.admin-dashboard-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.admin-dashboard-list li {
+  color: #fff;
+}
+
+.admin-dashboard-label {
+  font-weight: bold;
+}
+
+.admin-dashboard-form-control {
+  color: #fff;
+  background-color: #1a1a1a;
+  border: none;
+}
+
+.admin-dashboard-form-control:focus {
+  color: #fff;
+  box-shadow: none;
+  background-color: #1a1a1a;
+}
+
+.send-pdf-tab {
+  color: #fff;
+}
+
+.send-pdf-card {
+  text-align: center;
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+  border: 1px solid #2a262a;
+  border-radius: 20px;
+  padding: 20px;
+  transition: transform .2s;
+  box-shadow: 0 4px 10px #00000080;
+}
+
+.send-pdf-card:hover {
+  transform: translateY(-3px);
+}
+
+.send-pdf-card h6 {
+  color: #c4b1c1;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.send-pdf-value {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.send-pdf-search input {
+  color: #fff;
+  background-color: #1a1a1a;
+  border: 1px solid #2a262a;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+.send-pdf-search input:focus {
+  box-shadow: none;
+  background-color: #1a1a1a;
+  border-color: #644460;
+  outline: none;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-dark thead {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+.table-dark thead th {
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+.table-dark tbody tr {
+  background-color: #1a1a1a;
+}
+
+.table-dark tbody tr:nth-child(2n) {
+  background-color: #151515;
+}
+
+.table-dark td {
+  vertical-align: middle;
+}
+
+.table-dark button {
+  color: #fff;
+  background: linear-gradient(90deg, #9a6292, #644460);
+  border: none;
+  border-radius: 12px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.table-dark button:hover {
+  background: linear-gradient(90deg, #c4b1c1, #9a6292);
+}
+
+.send-pdf-pagination button {
+  color: #c4b1c1;
+  background-color: #0000;
+  border: 1px solid #644460;
+  border-radius: 10px;
+  margin: 0 5px;
+  padding: 6px 12px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.send-pdf-pagination button:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+.send-pdf-card-row {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.send-pdf-card-row h6 {
+  color: #c4b1c1;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.send-pdf-card-row .send-pdf-value {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.send-pdf-search {
+  width: 33%;
+  position: relative;
+}
+
+.send-pdf-search input::placeholder {
+  color: #fff;
+  text-align: left;
+}
+
+.send-pdf-search .search-icon {
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.send-pdf-search .form-control {
+  border-radius: 12px;
+  padding: 6px 15px;
+  color: #fff !important;
+  background-color: #1a1a1a00 !important;
+  border: 1px solid #2a262a00 !important;
+}
+
+.send-pdf-search .form-control::placeholder {
+  opacity: .7;
+  color: #fff !important;
+}
+
+
+/*# sourceMappingURL=styles_AdminDashboard_0016b401.css.map*/

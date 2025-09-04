@@ -1,0 +1,136 @@
+/* [project]/styles/Daschboard.css [client] (css) */
+.lockdash-body {
+  color: #fff;
+  background-color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.lockdash-text-gradient {
+  background: linear-gradient(90deg, #9a6292, #c4b1c1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.lockdash-sidebar {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.lockdash-sidebar h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.lockdash-nav-button {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.lockdash-nav-button i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.lockdash-nav-button:hover, .lockdash-nav-button.lockdash-active {
+  background: linear-gradient(90deg, #644460, #2a262a);
+}
+
+.lockdash-upgrade-btn {
+  color: #fff;
+  background: linear-gradient(135deg, #b04698 10%, #b27ab3 20% 80%, #893d79 90%);
+  border: none;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+  display: flex;
+}
+
+.lockdash-upgrade-btn i {
+  margin-right: 8px;
+}
+
+.lockdash-logo img {
+  width: 99%;
+  height: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.lockdash-top-bar {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.lockdash-user-info {
+  align-items: center;
+  display: flex;
+}
+
+.lockdash-user-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.lockdash-logout-icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color .3s;
+}
+
+.lockdash-logout-icon:hover {
+  color: #644460;
+}
+
+.lockdash-stat-box {
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  padding: 12px 20px;
+}
+
+.lockdash-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lockdash-list li {
+  color: #fff;
+}
+
+.lockdash-label {
+  font-weight: bold;
+}
+
+.lockdash-form-control {
+  color: #fff;
+  background-color: #1a1a1a;
+  border: none;
+}
+
+.lockdash-form-control:focus {
+  color: #fff;
+  box-shadow: none;
+  background-color: #1a1a1a;
+}
+
+/*# sourceMappingURL=styles_Daschboard_css_2bef753f._.single.css.map*/

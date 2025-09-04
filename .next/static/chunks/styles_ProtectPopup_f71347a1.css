@@ -1,0 +1,219 @@
+/* [project]/styles/ProtectPopup.css [client] (css) */
+.protect-content-section {
+  padding-bottom: 50px;
+  font-family: Poppins, sans-serif;
+}
+
+.left-col {
+  color: #fff;
+  background-color: #2f2f2f;
+  height: 80vh;
+  padding: 40px;
+}
+
+.right-col {
+  background: linear-gradient(#fff, #ce3fa6);
+  height: 80vh;
+  padding: 40px;
+}
+
+.popup-overlay {
+  z-index: 1000;
+  background: #000000b3;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.popup-content {
+  color: #fff;
+  background: #404040;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  max-width: 950px;
+  height: 675px;
+  padding: 40px 112px;
+  display: flex;
+  position: relative;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #fff, #eca7e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.input-field {
+  color: #fff;
+  background-color: #2f2f2f;
+  border: none;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.popup-image {
+  border-radius: 10px;
+  max-width: 80%;
+  height: auto;
+}
+
+.popup-footer {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.close-popup {
+  color: #fff;
+  cursor: pointer;
+  background-color: #cf3ca6;
+  border-radius: 6px;
+  padding: 0 15px;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.popup-heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.popup-description, .popup-instruction {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-preview-heading {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.identity-box {
+  background-color: #5a5858;
+  border-radius: 25px;
+  max-width: 450px;
+  line-height: 37px;
+}
+
+.show-popup-btn {
+  color: #fff;
+  background-color: #cf3ca6;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+
+.show-popup-btn:hover {
+  color: #fff;
+  background-color: #b02c91;
+}
+
+.step-verification-checklist {
+  text-align: center;
+}
+
+.checklist-points {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 20px;
+  list-style: outside;
+}
+
+.id-icon-box {
+  align-items: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.step4-heading {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  font-size: 26px;
+}
+
+.id-icon-row {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.cnic-preview-image {
+  border-radius: 8px;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  margin-left: 110px;
+  display: block;
+}
+
+.step6-facial-image {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text-custom {
+  font-weight: 500;
+  color: #c6c6c6 !important;
+}
+
+.step6-icons {
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.step6-icons .text-center {
+  width: 30%;
+}
+
+@media only screen and (width <= 540px) {
+  .popup-content {
+    height: 630px;
+    padding: 40px 20px;
+  }
+
+  .step4-heading {
+    font-size: 22px;
+  }
+
+  .cnic-preview-image {
+    max-width: 98%;
+    margin-left: 0;
+  }
+
+  .right-col, .left-col {
+    height: 20vh;
+    padding: 40px;
+  }
+}
+
+
+/*# sourceMappingURL=styles_ProtectPopup_f71347a1.css.map*/

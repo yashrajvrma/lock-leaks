@@ -1,0 +1,50 @@
+/* [project]/styles/BeforeAfterSection.css [client] (css) */
+.beforeafter {
+  color: #fff;
+  background-color: #0f0b15;
+  padding: 60px 0;
+}
+
+.beforeafter-heading {
+  background: linear-gradient(to right, #fff, #c52baf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.beforeafter img {
+  border-radius: 12px;
+  width: 585px;
+  max-width: 648px;
+  height: auto;
+}
+
+.arrow-image {
+  max-width: 80px;
+  height: auto;
+}
+
+@media (width <= 767px) {
+  .beforeafter-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (width <= 767.98px) {
+  .arrow-image {
+    transform: rotate(90deg);
+    width: 60% !important;
+    max-width: 50% !important;
+    height: auto !important;
+  }
+
+  .beforeafter img {
+    width: 90%;
+    max-width: 648px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=styles_BeforeAfterSection_css_2bef753f._.single.css.map*/

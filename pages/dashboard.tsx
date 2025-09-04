@@ -1,5 +1,5 @@
-import React from 'react';
-import Dashboard from '../components/dashboard';
+import React from "react";
+import Dashboard from "../components/dashboard";
 
 export default function DashboardPage() {
   return (
@@ -8,4 +8,3 @@ export default function DashboardPage() {
     </div>
   );
 }
-

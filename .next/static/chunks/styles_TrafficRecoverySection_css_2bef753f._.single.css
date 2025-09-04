@@ -1,0 +1,185 @@
+/* [project]/styles/TrafficRecoverySection.css [client] (css) */
+.traffic-recovery-section {
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.text-pink {
+  color: #e45ce4;
+}
+
+.grid-background {
+  background-image: linear-gradient(#0000 51px, #555454 52px), linear-gradient(90deg, #000000d9 51px, #555454 52px);
+  background-size: 52px 52px;
+  border: 1px solid #313131;
+  width: 100%;
+  max-width: 1145px;
+  height: 469px;
+  position: relative;
+  overflow: hidden;
+}
+
+.scrolling-sites {
+  align-items: flex-start;
+  gap: 50px;
+  width: max-content;
+  height: 100%;
+  animation: 40s linear infinite scrollLeft;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.site-box {
+  text-align: center;
+  backdrop-filter: blur(4px);
+  color: #fff;
+  min-width: 145px;
+  height: 22%;
+  box-shadow: none;
+  background: linear-gradient(#46133f 0%, #3e0d37 50%, #151017 100%);
+  border-radius: 12px;
+  padding: 10px 7px;
+  font-size: 14px;
+  transition: transform .3s;
+  position: relative;
+}
+
+.site-box:hover {
+  transform: scale(1.05);
+}
+
+.highlighted {
+  border: 1px solid #c52baf;
+}
+
+.status-label {
+  color: #8c7189;
+  justify-content: space-between;
+  margin-top: 6px;
+  padding: 0 2px;
+  font-size: 12px;
+  display: flex;
+}
+
+.status-reason {
+  color: #817180;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 0 2px;
+  font-size: 12px;
+  display: flex;
+}
+
+.site-title {
+  color: #ccb3c9;
+  background-color: #5a2753;
+  border-radius: 8px;
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.blurred-box {
+  backdrop-filter: blur(1px);
+  background: linear-gradient(#46133f 0%, #35132c 50%, #15101700 100%);
+  color: #919191 !important;
+}
+
+.circle-3k {
+  filter: blur(60px);
+  z-index: 0;
+  pointer-events: none;
+  background: #501b4a57;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-1 {
+  width: 500px;
+  height: 250px;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-2 {
+  width: 250px;
+  height: 250px;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-3 {
+  width: 250px;
+  height: 250px;
+  top: 60%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+}
+
+.traffic-title {
+  background: linear-gradient(to right, #fff 30%, #d64fb2 60%, #dd3db1 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.traffic-subtitle {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.traffic-desc {
+  color: #a7a7a7;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.custom-traffic-button {
+  border: 1px solid #d631be;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color .3s;
+  color: #fff !important;
+  background-color: #d631be !important;
+}
+
+.custom-traffic-button:hover {
+  background-color: #0000 !important;
+  border: 1px solid #d631be !important;
+}
+
+@media (width <= 767px) {
+  .traffic-title {
+    font-size: 28px;
+  }
+
+  .traffic-subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .traffic-desc {
+    margin-top: .5px;
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=styles_TrafficRecoverySection_css_2bef753f._.single.css.map*/
