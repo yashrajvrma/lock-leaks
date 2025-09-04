@@ -1,10 +1,10 @@
-'use client';
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import logo from '../public/images/lockleaks.svg';
-import bellIcon from '../public/icons/Animated GIF BG.gif';
-import trafficIcon from '../public/images/megaphone-icon.svg';
+"use client";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import logo from "../public/images/lockleaks.svg";
+import bellIcon from "../public/icons/Animated GIF BG.gif";
+import trafficIcon from "../public/images/megaphone-icon.svg";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,14 +18,14 @@ export default function Header() {
       height: 30,
       content: (
         <>
-          <strong>Get 20% OFF:</strong>{' '}
+          <strong>Get 20% OFF:</strong>{" "}
           <span className="top-bar-underline">
             Follow us on Twitter(X) (
             <a
               href="https://twitter.com/lock_leaks"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: 'white', textDecoration: 'none' }}
+              style={{ color: "white", textDecoration: "none" }}
             >
               @lock_leaks
             </a>
@@ -40,9 +40,12 @@ export default function Header() {
       height: 30,
       content: (
         <>
-          <strong>Game-Changer:</strong>{' '}
+          <strong>Game-Changer:</strong>{" "}
           <span className="top-bar-underline">
-            <Link href="/services" style={{ color: 'white', textDecoration: 'none' }}>
+            <Link
+              href="/services"
+              style={{ color: "white", textDecoration: "none" }}
+            >
               Boost Your Traffic – Recover Lost Subscribers from Pirated Sites!
             </Link>
           </span>
@@ -62,20 +65,20 @@ export default function Header() {
     const onScroll = () => {
       setIsFixed(window.scrollY > 0);
     };
-    window.addEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
 
     // Initial check on mount
     onScroll();
 
     return () => {
-      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener("scroll", onScroll);
     };
   }, []);
 
   return (
     <>
       {/* Placeholder to prevent content jump when header becomes fixed */}
-      {isFixed && <div style={{ height: '70px' }} />}
+      {isFixed && <div style={{ height: "70px" }} />}
 
       {/* Top Notification Bar */}
       <div className="top-bar-custom">
@@ -85,14 +88,18 @@ export default function Header() {
             alt="notification icon"
             width={messages[currentIndex].width}
             height={messages[currentIndex].height}
-            className={`top-bar-icon ${currentIndex !== 0 ? 'bell-animate' : ''}`}
+            className={`top-bar-icon ${
+              currentIndex !== 0 ? "bell-animate" : ""
+            }`}
           />
-          <div className="top-bar-text-wrap">{messages[currentIndex].content}</div>
+          <div className="top-bar-text-wrap">
+            {messages[currentIndex].content}
+          </div>
         </div>
       </div>
 
       {/* Main Header */}
-      <header className={`header-custom ${isFixed ? 'fixed' : ''}`}>
+      <header className={`header-custom ${isFixed ? "fixed" : ""}`}>
         <div className="container">
           <div className="row align-items-center">
             {/* Logo */}
