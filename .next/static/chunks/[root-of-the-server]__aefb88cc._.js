@@ -1273,33 +1273,23 @@ const ProfileData = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "position-relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "email",
-                                        value: userData.userData.email,
-                                        readOnly: true,
-                                        className: "form-control text-white border-0",
-                                        style: {
-                                            backgroundColor: "#24212a",
-                                            borderRadius: "8px",
-                                            padding: "12px 80px 12px 16px",
-                                            fontFamily: '"Inter", sans-serif'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 260,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2",
-                                        children: "Link"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 272,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    type: "email",
+                                    value: userData.userData.email,
+                                    readOnly: true,
+                                    className: "form-control text-white border-0",
+                                    style: {
+                                        backgroundColor: "#24212a",
+                                        borderRadius: "8px",
+                                        padding: "12px 80px 12px 16px",
+                                        fontFamily: '"Inter", sans-serif'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/components/profile.tsx",
+                                    lineNumber: 260,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/profile.tsx",
                                 lineNumber: 259,
                                 columnNumber: 15
@@ -1326,33 +1316,23 @@ const ProfileData = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "position-relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "text",
-                                        value: `${userData.userData.platform.platform} - @${userData.userData.platform.username}`,
-                                        readOnly: true,
-                                        className: "form-control text-white border-0",
-                                        style: {
-                                            backgroundColor: "#24212a",
-                                            borderRadius: "8px",
-                                            padding: "12px 80px 12px 16px",
-                                            fontFamily: '"Inter", sans-serif'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 289,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2",
-                                        children: "Link"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 301,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    type: "text",
+                                    value: `${userData.userData.platform.platform} - @${userData.userData.platform.username}`,
+                                    readOnly: true,
+                                    className: "form-control text-white border-0",
+                                    style: {
+                                        backgroundColor: "#24212a",
+                                        borderRadius: "8px",
+                                        padding: "12px 80px 12px 16px",
+                                        fontFamily: '"Inter", sans-serif'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/components/profile.tsx",
+                                    lineNumber: 289,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/profile.tsx",
                                 lineNumber: 288,
                                 columnNumber: 15
@@ -1379,33 +1359,23 @@ const ProfileData = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "position-relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "text",
-                                        value: userData.userData.platform.contactWhatsappNumber,
-                                        readOnly: true,
-                                        className: "form-control text-white border-0",
-                                        style: {
-                                            backgroundColor: "#24212a",
-                                            borderRadius: "8px",
-                                            padding: "12px 80px 12px 16px",
-                                            fontFamily: '"Inter", sans-serif'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 315,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btn-sm btn-start position-absolute top-50 end-0 translate-middle-y me-2",
-                                        children: "Save"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 327,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    type: "text",
+                                    value: userData.userData.platform.contactWhatsappNumber,
+                                    readOnly: true,
+                                    className: "form-control text-white border-0",
+                                    style: {
+                                        backgroundColor: "#24212a",
+                                        borderRadius: "8px",
+                                        padding: "12px 80px 12px 16px",
+                                        fontFamily: '"Inter", sans-serif'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/components/profile.tsx",
+                                    lineNumber: 315,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/profile.tsx",
                                 lineNumber: 314,
                                 columnNumber: 15
@@ -1432,33 +1402,23 @@ const ProfileData = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "position-relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "text",
-                                        value: `${userData.userData.price.name} - ${userData.userData.price.billed}`,
-                                        readOnly: true,
-                                        className: "form-control text-white border-0",
-                                        style: {
-                                            backgroundColor: "#24212a",
-                                            borderRadius: "8px",
-                                            padding: "12px 80px 12px 16px",
-                                            fontFamily: '"Inter", sans-serif'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 341,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2",
-                                        children: "Link"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/profile.tsx",
-                                        lineNumber: 353,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                    type: "text",
+                                    value: `${userData.userData.price.name} - ${userData.userData.price.billed}`,
+                                    readOnly: true,
+                                    className: "form-control text-white border-0",
+                                    style: {
+                                        backgroundColor: "#24212a",
+                                        borderRadius: "8px",
+                                        padding: "12px 80px 12px 16px",
+                                        fontFamily: '"Inter", sans-serif'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/components/profile.tsx",
+                                    lineNumber: 341,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/profile.tsx",
                                 lineNumber: 340,
                                 columnNumber: 15

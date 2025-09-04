@@ -269,9 +269,9 @@ const ProfileData = () => {
                     fontFamily: '"Inter", sans-serif',
                   }}
                 />
-                <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
+                {/* <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
                   Link
-                </button>
+                </button> */}
               </div>
             </div>
 
@@ -298,9 +298,9 @@ const ProfileData = () => {
                     fontFamily: '"Inter", sans-serif',
                   }}
                 />
-                <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
+                {/* <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
                   Link
-                </button>
+                </button> */}
               </div>
             </div>
 
@@ -324,9 +324,9 @@ const ProfileData = () => {
                     fontFamily: '"Inter", sans-serif',
                   }}
                 />
-                <button className="btn btn-sm btn-start position-absolute top-50 end-0 translate-middle-y me-2">
+                {/* <button className="btn btn-sm btn-start position-absolute top-50 end-0 translate-middle-y me-2">
                   Save
-                </button>
+                </button> */}
               </div>
             </div>
 
@@ -350,9 +350,9 @@ const ProfileData = () => {
                     fontFamily: '"Inter", sans-serif',
                   }}
                 />
-                <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
+                {/* <button className="btn btn-sm btn-login position-absolute top-50 end-0 translate-middle-y me-2">
                   Link
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
