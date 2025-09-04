@@ -1050,7 +1050,7 @@ const CheckPrivateContent = ()=>{
                         children: "Finish"
                     }, void 0, false, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 132,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1071,7 +1071,7 @@ const CheckPrivateContent = ()=>{
                     children: "Subscription Platforms"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 146,
+                    lineNumber: 150,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1083,12 +1083,12 @@ const CheckPrivateContent = ()=>{
                             children: platform
                         }, idx, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 149,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 147,
+                    lineNumber: 151,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -1096,7 +1096,7 @@ const CheckPrivateContent = ()=>{
                     children: "Streaming Platforms"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 162,
+                    lineNumber: 166,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1117,17 +1117,17 @@ const CheckPrivateContent = ()=>{
                                 height: 40
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 174,
+                                lineNumber: 180,
                                 columnNumber: 15
                             }, this) : platform
                         }, idx, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 165,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 163,
+                    lineNumber: 167,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -1135,7 +1135,7 @@ const CheckPrivateContent = ()=>{
                     children: "Social Media Platforms"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 195,
+                    lineNumber: 201,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1147,12 +1147,12 @@ const CheckPrivateContent = ()=>{
                             children: platform
                         }, idx, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 198,
+                            lineNumber: 204,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 196,
+                    lineNumber: 202,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -1160,7 +1160,7 @@ const CheckPrivateContent = ()=>{
                     children: "Other Platforms"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 211,
+                    lineNumber: 217,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1172,12 +1172,12 @@ const CheckPrivateContent = ()=>{
                         children: "+ Add Custom Platform"
                     }, void 0, false, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 213,
+                        lineNumber: 219,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 212,
+                    lineNumber: 218,
                     columnNumber: 7
                 }, this)
             ]
@@ -1195,7 +1195,7 @@ const CheckPrivateContent = ()=>{
                             onChange: (e)=>updateUrl(0, e.target.value)
                         }, void 0, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 229,
+                            lineNumber: 235,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1205,13 +1205,13 @@ const CheckPrivateContent = ()=>{
                             children: "Save"
                         }, void 0, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 236,
+                            lineNumber: 242,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 228,
+                    lineNumber: 234,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1225,7 @@ const CheckPrivateContent = ()=>{
                             onChange: (e)=>updateUrl(1, e.target.value)
                         }, void 0, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 246,
+                            lineNumber: 252,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1235,13 +1235,13 @@ const CheckPrivateContent = ()=>{
                             children: "Add"
                         }, void 0, false, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 253,
+                            lineNumber: 259,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 245,
+                    lineNumber: 251,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,18 +1253,18 @@ const CheckPrivateContent = ()=>{
                         children: "Add Account from Another Platform"
                     }, void 0, false, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 263,
+                        lineNumber: 269,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 262,
+                    lineNumber: 268,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CheckPrivateContent.tsx",
-            lineNumber: 227,
+            lineNumber: 233,
             columnNumber: 5
         }, this);
     const Step3Verify = ()=>{
@@ -1296,7 +1296,7 @@ const CheckPrivateContent = ()=>{
                     children: "Enter your email and set a password for your free scan account."
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 293,
+                    lineNumber: 301,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1309,7 +1309,7 @@ const CheckPrivateContent = ()=>{
                                     children: "Email Address"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 307,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1320,7 +1320,7 @@ const CheckPrivateContent = ()=>{
                                     onChange: (e)=>setEmail(e.target.value)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 300,
+                                    lineNumber: 308,
                                     columnNumber: 13
                                 }, this),
                                 errors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -1328,13 +1328,13 @@ const CheckPrivateContent = ()=>{
                                     children: errors.email
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 307,
-                                    columnNumber: 30
+                                    lineNumber: 316,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 298,
+                            lineNumber: 306,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1344,7 +1344,7 @@ const CheckPrivateContent = ()=>{
                                     children: "Password"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1355,7 +1355,7 @@ const CheckPrivateContent = ()=>{
                                     onChange: (e)=>setPassword(e.target.value)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 312,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this),
                                 errors.password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -1363,19 +1363,19 @@ const CheckPrivateContent = ()=>{
                                     children: errors.password
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 319,
-                                    columnNumber: 33
+                                    lineNumber: 330,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 310,
+                            lineNumber: 320,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 297,
+                    lineNumber: 305,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1383,7 +1383,7 @@ const CheckPrivateContent = ()=>{
                     children: "Note: (Required for scan updates and account creation.)"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 323,
+                    lineNumber: 335,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -1391,7 +1391,7 @@ const CheckPrivateContent = ()=>{
                     children: "Select Your Preferred Contact Method"
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 327,
+                    lineNumber: 339,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1408,14 +1408,14 @@ const CheckPrivateContent = ()=>{
                                     onChange: ()=>setVerificationMethod("email")
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 330,
+                                    lineNumber: 344,
                                     columnNumber: 13
                                 }, this),
                                 "Your WhatsApp Number"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 329,
+                            lineNumber: 343,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1429,14 +1429,14 @@ const CheckPrivateContent = ()=>{
                                     onChange: ()=>setVerificationMethod("dns")
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 340,
+                                    lineNumber: 354,
                                     columnNumber: 13
                                 }, this),
                                 "Phone Number"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 339,
+                            lineNumber: 353,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1450,14 +1450,14 @@ const CheckPrivateContent = ()=>{
                                     onChange: ()=>setVerificationMethod("file")
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 350,
+                                    lineNumber: 364,
                                     columnNumber: 13
                                 }, this),
                                 "Live Chat"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 349,
+                            lineNumber: 363,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1471,26 +1471,26 @@ const CheckPrivateContent = ()=>{
                                     onChange: ()=>setVerificationMethod("none")
                                 }, void 0, false, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 360,
+                                    lineNumber: 374,
                                     columnNumber: 13
                                 }, this),
                                 "Email Only"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 359,
+                            lineNumber: 373,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 328,
+                    lineNumber: 342,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CheckPrivateContent.tsx",
-            lineNumber: 292,
+            lineNumber: 300,
             columnNumber: 7
         }, this);
     };
@@ -1509,14 +1509,14 @@ const CheckPrivateContent = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 379,
+                    lineNumber: 393,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "By proceeding, you confirm your subscription to Lock Leaks Premium."
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 380,
+                    lineNumber: 394,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1530,14 +1530,14 @@ const CheckPrivateContent = ()=>{
                                 onChange: ()=>setAgreed(!agreed)
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 384,
+                                lineNumber: 400,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "custom-check"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 389,
+                                lineNumber: 405,
                                 columnNumber: 13
                             }, this),
                             "You agree to our ",
@@ -1546,7 +1546,7 @@ const CheckPrivateContent = ()=>{
                                 children: "Terms and Conditions"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 390,
+                                lineNumber: 406,
                                 columnNumber: 30
                             }, this),
                             " and",
@@ -1556,19 +1556,19 @@ const CheckPrivateContent = ()=>{
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 391,
+                                lineNumber: 407,
                                 columnNumber: 13
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 383,
+                        lineNumber: 399,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 382,
+                    lineNumber: 398,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1580,13 +1580,13 @@ const CheckPrivateContent = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 395,
+                    lineNumber: 411,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CheckPrivateContent.tsx",
-            lineNumber: 378,
+            lineNumber: 392,
             columnNumber: 7
         }, this);
     };
@@ -1606,15 +1606,15 @@ const CheckPrivateContent = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 409,
-                    columnNumber: 7
+                    lineNumber: 425,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "By proceeding, you confirm your subscription to Lock Leaks Premium."
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 410,
-                    columnNumber: 7
+                    lineNumber: 426,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "step4-terms",
@@ -1627,15 +1627,15 @@ const CheckPrivateContent = ()=>{
                                 onChange: ()=>setAgreed(!agreed)
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 413,
-                                columnNumber: 11
+                                lineNumber: 431,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "custom-check"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 418,
-                                columnNumber: 11
+                                lineNumber: 436,
+                                columnNumber: 13
                             }, this),
                             "You agree to our ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1643,8 +1643,8 @@ const CheckPrivateContent = ()=>{
                                 children: "Terms and Conditions"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 419,
-                                columnNumber: 28
+                                lineNumber: 437,
+                                columnNumber: 30
                             }, this),
                             " and",
                             " ",
@@ -1653,20 +1653,20 @@ const CheckPrivateContent = ()=>{
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 420,
-                                columnNumber: 11
+                                lineNumber: 438,
+                                columnNumber: 13
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 412,
-                        columnNumber: 9
+                        lineNumber: 430,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 411,
-                    columnNumber: 7
+                    lineNumber: 429,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "step4-terms mt-3",
@@ -1679,36 +1679,37 @@ const CheckPrivateContent = ()=>{
                                 onChange: ()=>setAnnualAccepted(!annualAccepted)
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 427,
-                                columnNumber: 3
+                                lineNumber: 445,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "custom-check"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 432,
-                                columnNumber: 3
+                                lineNumber: 450,
+                                columnNumber: 13
                             }, this),
-                            "I accept the ",
+                            "I accept the",
+                            " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#",
                                 children: "[Annual Subscription Terms]"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 433,
-                                columnNumber: 16
+                                lineNumber: 451,
+                                columnNumber: 13
                             }, this),
                             ", including Traffic Redirection and Content Use policies."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 426,
-                        columnNumber: 8
+                        lineNumber: 444,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 425,
-                    columnNumber: 7
+                    lineNumber: 443,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     className: "step4-btn mt-3",
@@ -1719,14 +1720,14 @@ const CheckPrivateContent = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 438,
-                    columnNumber: 7
+                    lineNumber: 456,
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/CheckPrivateContent.tsx",
-            lineNumber: 407,
-            columnNumber: 5
+            lineNumber: 423,
+            columnNumber: 7
         }, this);
     };
     _s3(Step5Done, "eIAh9zg5dWEW5zNcyB5OR1kQRMA=");
@@ -1744,7 +1745,7 @@ const CheckPrivateContent = ()=>{
                                 children: "Check if your private content has been leaked"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 452,
+                                lineNumber: 470,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1752,7 +1753,7 @@ const CheckPrivateContent = ()=>{
                                 children: "Free & Secure"
                             }, void 0, false, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 453,
+                                lineNumber: 473,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1764,14 +1765,14 @@ const CheckPrivateContent = ()=>{
                                         children: "no longer active"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 456,
+                                        lineNumber: 477,
                                         columnNumber: 13
                                     }, this),
                                     ". This helps ensure comprehensive protection."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 454,
+                                lineNumber: 474,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1784,7 +1785,7 @@ const CheckPrivateContent = ()=>{
                                         children: "Add Your Accounts"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 465,
+                                        lineNumber: 487,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1794,19 +1795,19 @@ const CheckPrivateContent = ()=>{
                                         alt: "account"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 466,
+                                        lineNumber: 488,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 459,
+                                lineNumber: 481,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 451,
+                        lineNumber: 469,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1829,7 +1830,7 @@ const CheckPrivateContent = ()=>{
                                             "aria-label": "Slide 1"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 479,
+                                            lineNumber: 506,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1839,7 +1840,7 @@ const CheckPrivateContent = ()=>{
                                             "aria-label": "Slide 2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 480,
+                                            lineNumber: 514,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1849,13 +1850,13 @@ const CheckPrivateContent = ()=>{
                                             "aria-label": "Slide 3"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 481,
+                                            lineNumber: 520,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 478,
+                                    lineNumber: 505,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1868,14 +1869,14 @@ const CheckPrivateContent = ()=>{
                                                     children: "Think You're Protected? Think Again."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 485,
+                                                    lineNumber: 529,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Competitors remove surface leaks. We eliminate them deep."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 486,
+                                                    lineNumber: 530,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1889,13 +1890,13 @@ const CheckPrivateContent = ()=>{
                                                     alt: "Slide 1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 487,
+                                                    lineNumber: 531,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 484,
+                                            lineNumber: 528,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1905,14 +1906,14 @@ const CheckPrivateContent = ()=>{
                                                     children: "Your Content Deserves the Best Protection."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 490,
+                                                    lineNumber: 541,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "We’re not just a leak removal service. Lock Leaks is a cybersecurity powerhouse..."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 491,
+                                                    lineNumber: 542,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1926,13 +1927,13 @@ const CheckPrivateContent = ()=>{
                                                     alt: "Slide 2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 492,
+                                                    lineNumber: 546,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 489,
+                                            lineNumber: 540,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1942,14 +1943,14 @@ const CheckPrivateContent = ()=>{
                                                     children: "24/7 Protection"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 495,
+                                                    lineNumber: 556,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Sleep easy knowing your brand is always guarded."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 496,
+                                                    lineNumber: 557,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1963,36 +1964,36 @@ const CheckPrivateContent = ()=>{
                                                     alt: "Slide 3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                                    lineNumber: 497,
+                                                    lineNumber: 558,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                                            lineNumber: 494,
+                                            lineNumber: 555,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                                    lineNumber: 483,
+                                    lineNumber: 527,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CheckPrivateContent.tsx",
-                            lineNumber: 472,
+                            lineNumber: 499,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 471,
+                        lineNumber: 498,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                lineNumber: 449,
+                lineNumber: 467,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2021,7 +2022,7 @@ const CheckPrivateContent = ()=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 509,
+                                        lineNumber: 583,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2032,13 +2033,13 @@ const CheckPrivateContent = ()=>{
                                         "aria-label": "Close"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 516,
+                                        lineNumber: 593,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 508,
+                                lineNumber: 582,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2046,65 +2047,65 @@ const CheckPrivateContent = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StepHeader, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 526,
+                                        lineNumber: 603,
                                         columnNumber: 15
                                     }, this),
                                     step === 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Step1Platforms, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 529,
+                                        lineNumber: 606,
                                         columnNumber: 30
                                     }, this),
                                     step === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Step2Urls, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 530,
+                                        lineNumber: 607,
                                         columnNumber: 30
                                     }, this),
                                     step === 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Step3Verify, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 531,
+                                        lineNumber: 608,
                                         columnNumber: 30
                                     }, this),
                                     step === 4 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Step4Review, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 532,
+                                        lineNumber: 609,
                                         columnNumber: 30
                                     }, this),
                                     step === 5 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Step5Done, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 533,
+                                        lineNumber: 610,
                                         columnNumber: 30
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StepFooter, {}, void 0, false, {
                                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                                        lineNumber: 535,
+                                        lineNumber: 612,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                                lineNumber: 525,
+                                lineNumber: 602,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CheckPrivateContent.tsx",
-                        lineNumber: 507,
+                        lineNumber: 581,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CheckPrivateContent.tsx",
-                    lineNumber: 506,
+                    lineNumber: 580,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CheckPrivateContent.tsx",
-                lineNumber: 505,
+                lineNumber: 573,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CheckPrivateContent.tsx",
-        lineNumber: 448,
+        lineNumber: 466,
         columnNumber: 5
     }, this);
 };
@@ -2572,17 +2573,17 @@ const Start = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$newheader$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/start.tsx",
                 lineNumber: 10,
-                columnNumber: 5
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CheckPrivateContent$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/start.tsx",
                 lineNumber: 11,
-                columnNumber: 5
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/start.tsx",
                 lineNumber: 12,
-                columnNumber: 5
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true);

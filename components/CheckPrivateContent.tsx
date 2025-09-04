@@ -125,7 +125,11 @@ const CheckPrivateContent: React.FC = () => {
         </button>
 
         {step < TOTAL_STEPS ? (
-          <button type="button" className="btn btn-pink px-4" onClick={nextStep}>
+          <button
+            type="button"
+            className="btn btn-pink px-4"
+            onClick={nextStep}
+          >
             Next
           </button>
         ) : (
@@ -170,7 +174,9 @@ const CheckPrivateContent: React.FC = () => {
             }`}
             onClick={() => togglePlatform(platform)}
           >
-            {["LiveJasmin", "BongaCams", "CAM4", "CamSoda"].includes(platform) ? (
+            {["LiveJasmin", "BongaCams", "CAM4", "CamSoda"].includes(
+              platform
+            ) ? (
               <Images
                 src={
                   platform === "LiveJasmin"
@@ -278,8 +284,10 @@ const CheckPrivateContent: React.FC = () => {
 
     const validate = () => {
       const newErrors = { email: "", password: "" };
-      if (!email.includes("@")) newErrors.email = "Please enter a valid email address";
-      if (password.length < 6) newErrors.password = "Don't forget to set your password!";
+      if (!email.includes("@"))
+        newErrors.email = "Please enter a valid email address";
+      if (password.length < 6)
+        newErrors.password = "Don't forget to set your password!";
       setErrors(newErrors);
       return !newErrors.email && !newErrors.password;
     };
@@ -304,7 +312,9 @@ const CheckPrivateContent: React.FC = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            {errors.email && <small className="text-danger">{errors.email}</small>}
+            {errors.email && (
+              <small className="text-danger">{errors.email}</small>
+            )}
           </div>
 
           <div className="flex-fill">
@@ -316,7 +326,9 @@ const CheckPrivateContent: React.FC = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            {errors.password && <small className="text-danger">{errors.password}</small>}
+            {errors.password && (
+              <small className="text-danger">{errors.password}</small>
+            )}
           </div>
         </div>
 
@@ -324,7 +336,9 @@ const CheckPrivateContent: React.FC = () => {
           Note: (Required for scan updates and account creation.)
         </p>
 
-        <h6 className="text-center mb-2">Select Your Preferred Contact Method</h6>
+        <h6 className="text-center mb-2">
+          Select Your Preferred Contact Method
+        </h6>
         <div className="list-group mb-3">
           <label className="list-group-item">
             <input
@@ -377,7 +391,9 @@ const CheckPrivateContent: React.FC = () => {
     return (
       <div className="step4-container">
         <p className="selected-plan">You’ve selected the {selectedPlan}</p>
-        <p>By proceeding, you confirm your subscription to Lock Leaks Premium.</p>
+        <p>
+          By proceeding, you confirm your subscription to Lock Leaks Premium.
+        </p>
 
         <div className="step4-terms">
           <label className="checkbox-label">
@@ -400,60 +416,66 @@ const CheckPrivateContent: React.FC = () => {
   };
 
   const Step5Done = ({ selectedPlan = "Starter Plan" }) => {
-  const [agreed, setAgreed] = useState(false);
-  const [annualAccepted, setAnnualAccepted] = useState(false);
+    const [agreed, setAgreed] = useState(false);
+    const [annualAccepted, setAnnualAccepted] = useState(false);
 
-  return (
-    <div className="step5-container text-center py-4">
-      {/* Step 5 main content */}    
-      <p className="selected-plan">You’ve selected the {selectedPlan}</p>
-      <p>By proceeding, you confirm your subscription to Lock Leaks Premium.</p>
-      <div className="step4-terms">
-        <label className="checkbox-label">
-          <input
-            type="checkbox"
-            checked={agreed}
-            onChange={() => setAgreed(!agreed)}
-          />
-          <span className="custom-check"></span>
-          You agree to our <a href="#">Terms and Conditions</a> and{" "}
-          <a href="#">Privacy Policy</a>.
-        </label>
+    return (
+      <div className="step5-container text-center py-4">
+        {/* Step 5 main content */}
+        <p className="selected-plan">You’ve selected the {selectedPlan}</p>
+        <p>
+          By proceeding, you confirm your subscription to Lock Leaks Premium.
+        </p>
+        <div className="step4-terms">
+          <label className="checkbox-label">
+            <input
+              type="checkbox"
+              checked={agreed}
+              onChange={() => setAgreed(!agreed)}
+            />
+            <span className="custom-check"></span>
+            You agree to our <a href="#">Terms and Conditions</a> and{" "}
+            <a href="#">Privacy Policy</a>.
+          </label>
+        </div>
+
+        {/* New Annual Subscription Terms checkbox */}
+        <div className="step4-terms mt-3">
+          <label className="checkbox-label">
+            <input
+              type="checkbox"
+              checked={annualAccepted}
+              onChange={() => setAnnualAccepted(!annualAccepted)}
+            />
+            <span className="custom-check"></span>I accept the{" "}
+            <a href="#">[Annual Subscription Terms]</a>, including Traffic
+            Redirection and Content Use policies.
+          </label>
+        </div>
+
+        <button
+          className="step4-btn mt-3"
+          disabled={!agreed || !annualAccepted} // button enabled only if both checkboxes are checked
+        >
+          Buy {selectedPlan}
+        </button>
       </div>
-
-      {/* New Annual Subscription Terms checkbox */}
-      <div className="step4-terms mt-3">
-       <label className="checkbox-label">
-  <input
-    type="checkbox"
-    checked={annualAccepted}
-    onChange={() => setAnnualAccepted(!annualAccepted)}
-  />
-  <span className="custom-check"></span>
-  I accept the <a href="#">[Annual Subscription Terms]</a>, including Traffic Redirection and Content Use policies.
-</label>
-
-      </div>
-
-      <button
-        className="step4-btn mt-3"
-        disabled={!agreed || !annualAccepted} // button enabled only if both checkboxes are checked
-      >
-        Buy {selectedPlan}
-      </button>
-    </div>
-  );
-};
+    );
+  };
   return (
     <div className="d-flex justify-content-center align-items-center min-vh-100">
       <div className="dailogs-login-slider-section d-flex flex-md-row flex-column">
         {/* Left Column */}
         <div className="col-md-6 platform-login-box text-center">
-          <div className="check-header">Check if your private content has been leaked</div>
+          <div className="check-header">
+            Check if your private content has been leaked
+          </div>
           <div className="check-sub">Free & Secure</div>
           <p className="check-instruction">
-            Please provide the URLs of your primary accounts across all platforms you use, even if they are{" "}
-            <strong>no longer active</strong>. This helps ensure comprehensive protection.
+            Please provide the URLs of your primary accounts across all
+            platforms you use, even if they are{" "}
+            <strong>no longer active</strong>. This helps ensure comprehensive
+            protection.
           </p>
 
           <div
@@ -463,7 +485,12 @@ const CheckPrivateContent: React.FC = () => {
             onClick={resetWizard}
           >
             <span>Add Your Accounts</span>
-            <Images src="/images/accountfinger.svg" width={24} height={24} alt="account" />
+            <Images
+              src="/images/accountfinger.svg"
+              width={24}
+              height={24}
+              alt="account"
+            />
           </div>
         </div>
 
@@ -476,25 +503,66 @@ const CheckPrivateContent: React.FC = () => {
             data-bs-interval="2000"
           >
             <div className="carousel-indicators">
-              <button type="button" data-bs-target="#dailogsCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#dailogsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#dailogsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button
+                type="button"
+                data-bs-target="#dailogsCarousel"
+                data-bs-slide-to="0"
+                className="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#dailogsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#dailogsCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
             <div className="carousel-inner h-100 d-flex align-items-center">
               <div className="carousel-item active text-center px-4">
                 <h4>Think You're Protected? Think Again.</h4>
                 <p>Competitors remove surface leaks. We eliminate them deep.</p>
-                <Images src="/images/card.png" className="img-fluid" style={{ maxWidth: "85%" }} width={500} height={300} alt="Slide 1" />
+                <Images
+                  src="/images/card.png"
+                  className="img-fluid"
+                  style={{ maxWidth: "85%" }}
+                  width={500}
+                  height={300}
+                  alt="Slide 1"
+                />
               </div>
               <div className="carousel-item text-center px-4">
                 <h4>Your Content Deserves the Best Protection.</h4>
-                <p>We’re not just a leak removal service. Lock Leaks is a cybersecurity powerhouse...</p>
-                <Images src="/images/1card.png" className="img-fluid" style={{ maxWidth: "85%" }} width={500} height={300} alt="Slide 2" />
+                <p>
+                  We’re not just a leak removal service. Lock Leaks is a
+                  cybersecurity powerhouse...
+                </p>
+                <Images
+                  src="/images/1card.png"
+                  className="img-fluid"
+                  style={{ maxWidth: "85%" }}
+                  width={500}
+                  height={300}
+                  alt="Slide 2"
+                />
               </div>
               <div className="carousel-item text-center px-4">
                 <h4>24/7 Protection</h4>
                 <p>Sleep easy knowing your brand is always guarded.</p>
-                <Images src="/images/card3.png" className="img-fluid" style={{ maxWidth: "85%" }} width={500} height={300} alt="Slide 3" />
+                <Images
+                  src="/images/card3.png"
+                  className="img-fluid"
+                  style={{ maxWidth: "85%" }}
+                  width={500}
+                  height={300}
+                  alt="Slide 3"
+                />
               </div>
             </div>
           </div>
@@ -502,11 +570,20 @@ const CheckPrivateContent: React.FC = () => {
       </div>
 
       {/* Platform Modal */}
-      <div className="modal fade" id="platformModal" tabIndex={-1} aria-labelledby="platformModalLabel" aria-hidden="true">
+      <div
+        className="modal fade"
+        id="platformModal"
+        tabIndex={-1}
+        aria-labelledby="platformModalLabel"
+        aria-hidden="true"
+      >
         <div className="modal-dialog modal-dialog-centered modal-lg">
           <div className="modal-content custom-popup text-white">
             <div className="modal-header border-0">
-              <h5 className="modal-title w-100 text-center" id="platformModalLabel">
+              <h5
+                className="modal-title w-100 text-center"
+                id="platformModalLabel"
+              >
                 {step === 1 && "Select your platform"}
                 {step === 2 && "Add your OnlyFans account"}
                 {step === 3 && "Add your contact information"}
