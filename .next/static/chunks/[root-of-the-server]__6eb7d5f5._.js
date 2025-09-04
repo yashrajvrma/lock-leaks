@@ -1035,6 +1035,165 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
+// "use client";
+// import { useState, useEffect } from "react";
+// import Link from "next/link";
+// import Image from "next/image";
+// import logo from "../public/images/lockleaks.svg";
+// import bellIcon from "../public/icons/Animated GIF BG.gif";
+// import trafficIcon from "../public/images/megaphone-icon.svg";
+// import "../styles/Newheader.css";
+// export default function Header() {
+//   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+//   const [currentIndex, setCurrentIndex] = useState(0);
+//   const [isScrolled, setIsScrolled] = useState(false);
+//   const messages = [
+//     {
+//       icon: bellIcon,
+//       width: 50,
+//       height: 30,
+//       content: (
+//         <>
+//           <strong>Get 20% OFF:</strong>{" "}
+//           <span className="top-bar-underline">
+//             Follow us on Twitter(X) (
+//             <a
+//               href="https://twitter.com/lock_leaks"
+//               target="_blank"
+//               rel="noopener noreferrer"
+//               style={{ color: "white", textDecoration: "none" }}
+//             >
+//               @lock_leaks
+//             </a>
+//             ) and leave a review — get 20% discount on your next service.
+//           </span>
+//         </>
+//       ),
+//     },
+//     {
+//       icon: trafficIcon,
+//       width: 20,
+//       height: 30,
+//       content: (
+//         <>
+//           <strong>Game-Changer:</strong>{" "}
+//           <span className="top-bar-underline">
+//             <Link
+//               href="/services"
+//               style={{ color: "white", textDecoration: "none" }}
+//             >
+//               Boost Your Traffic – Recover Lost Subscribers from Pirated Sites!
+//             </Link>
+//           </span>
+//         </>
+//       ),
+//     },
+//   ];
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCurrentIndex((prevIndex) => (prevIndex + 1) % messages.length);
+//     }, 5000);
+//     return () => clearInterval(interval);
+//   }, []);
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const scrollTop = window.scrollY || document.documentElement.scrollTop;
+//       setIsScrolled(scrollTop > 10);
+//     };
+//     window.addEventListener("scroll", handleScroll);
+//     handleScroll(); // run once on load
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+//   return (
+//     <>
+//       {/* Top Notification Bar */}
+//       <div className="top-bar-custom">
+//         <div className="top-bar-content">
+//           <Image
+//             src={messages[currentIndex].icon}
+//             alt="notification icon"
+//             width={messages[currentIndex].width}
+//             height={messages[currentIndex].height}
+//             className={`top-bar-icon ${
+//               currentIndex !== 0 ? "bell-animate" : ""
+//             }`}
+//           />
+//           <div className="top-bar-text-wrap">
+//             {messages[currentIndex].content}
+//           </div>
+//         </div>
+//       </div>
+//       {/* Main Header */}
+//       <header className={`header-custom ${isScrolled ? "scrolled" : ""}`}>
+//         <div className="container">
+//           <div className="row align-items-center">
+//             {/* Logo */}
+//             <div className="col-6 col-md-4">
+//               <Link href="/">
+//                 <div className="logo-hover-effect">
+//                   <Image src={logo} alt="Logo" width={185} height={50} />
+//                 </div>
+//               </Link>
+//             </div>
+//             {/* Desktop Menu */}
+//             <nav className="menu-wrapper d-none d-md-flex col-md-4 justify-content-center">
+//               <Link href="/services" className="nav-link-custom">
+//                 Services
+//               </Link>
+//               <Link href="/pricing" className="nav-link-custom">
+//                 Pricing
+//               </Link>
+//               <Link href="/agencies" className="nav-link-custom">
+//                 Agencies
+//               </Link>
+//               <Link href="/blogs" className="nav-link-custom">
+//                 Blog
+//               </Link>
+//             </nav>
+//             {/* Buttons + Hamburger */}
+//             <div className="col-6 col-md-4 d-flex justify-content-end align-items-center gap-2">
+//               <div className="d-none d-md-flex gap-2">
+//                 <Link href="/login" className="btn-login">
+//                   Log in
+//                 </Link>
+//                 <Link href="/start-free" className="btn-start">
+//                   Start Free
+//                 </Link>
+//               </div>
+//               <div className="d-md-none">
+//                 <button
+//                   className="hamburger-btn"
+//                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+//                   aria-label="Toggle menu"
+//                 >
+//                   ☰
+//                 </button>
+//               </div>
+//             </div>
+//           </div>
+//           {/* Mobile Nav */}
+//           {mobileMenuOpen && (
+//             <div className="mobile-nav d-flex flex-column align-items-end pe-3 mt-2">
+//               <Link href="/services" className="nav-link-custom mb-1">
+//                 Services
+//               </Link>
+//               <Link href="/pricing" className="nav-link-custom mb-1">
+//                 Pricing
+//               </Link>
+//               <Link href="/agencies" className="nav-link-custom mb-1">
+//                 Agencies
+//               </Link>
+//               <Link href="/blogs" className="nav-link-custom">
+//                 Blog
+//               </Link>
+//             </div>
+//           )}
+//         </div>
+//       </header>
+//     </>
+//   );
+// }
+// @ts-nocheck
 __turbopack_context__.s({
     "default": (()=>Header)
 });
@@ -1042,6 +1201,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$auth$2d$store$2e$ts__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/store/auth-store.ts [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$lockleaks$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$lockleaks$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/lockleaks.svg.mjs { IMAGE => "[project]/public/images/lockleaks.svg (static in ecmascript)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$icons$2f$Animated__GIF__BG$2e$gif$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$icons$2f$Animated__GIF__BG$2e$gif__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/icons/Animated GIF BG.gif.mjs { IMAGE => "[project]/public/icons/Animated GIF BG.gif (static in ecmascript)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$megaphone$2d$icon$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$megaphone$2d$icon$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/megaphone-icon.svg.mjs { IMAGE => "[project]/public/images/megaphone-icon.svg (static in ecmascript)" } [client] (structured image object, ecmascript)');
@@ -1055,11 +1216,16 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function Header() {
     _s();
     const [mobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [currentIndex, setCurrentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(0);
-    const [isScrolled, setIsScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isFixed, setIsFixed] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const isAuthenticated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$auth$2d$store$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["useAuthStore"])({
+        "Header.useAuthStore[isAuthenticated]": (state)=>state.getIsAuthenticated()
+    }["Header.useAuthStore[isAuthenticated]"]);
     const messages = [
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$icons$2f$Animated__GIF__BG$2e$gif$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$icons$2f$Animated__GIF__BG$2e$gif__$28$static__in__ecmascript$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -1071,7 +1237,7 @@ function Header() {
                         children: "Get 20% OFF:"
                     }, void 0, false, {
                         fileName: "[project]/components/newheader.tsx",
-                        lineNumber: 22,
+                        lineNumber: 197,
                         columnNumber: 11
                     }, this),
                     " ",
@@ -1090,14 +1256,14 @@ function Header() {
                                 children: "@lock_leaks"
                             }, void 0, false, {
                                 fileName: "[project]/components/newheader.tsx",
-                                lineNumber: 25,
+                                lineNumber: 200,
                                 columnNumber: 13
                             }, this),
                             ") and leave a review — get 20% discount on your next service."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/newheader.tsx",
-                        lineNumber: 23,
+                        lineNumber: 198,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1113,7 +1279,7 @@ function Header() {
                         children: "Game-Changer:"
                     }, void 0, false, {
                         fileName: "[project]/components/newheader.tsx",
-                        lineNumber: 44,
+                        lineNumber: 219,
                         columnNumber: 11
                     }, this),
                     " ",
@@ -1128,12 +1294,12 @@ function Header() {
                             children: "Boost Your Traffic – Recover Lost Subscribers from Pirated Sites!"
                         }, void 0, false, {
                             fileName: "[project]/components/newheader.tsx",
-                            lineNumber: 46,
+                            lineNumber: 221,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/newheader.tsx",
-                        lineNumber: 45,
+                        lineNumber: 220,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1153,24 +1319,36 @@ function Header() {
                 "Header.useEffect": ()=>clearInterval(interval)
             })["Header.useEffect"];
         }
-    }["Header.useEffect"], []);
+    }["Header.useEffect"], [
+        messages.length
+    ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Header.useEffect": ()=>{
-            const handleScroll = {
-                "Header.useEffect.handleScroll": ()=>{
-                    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-                    setIsScrolled(scrollTop > 10);
+            const onScroll = {
+                "Header.useEffect.onScroll": ()=>{
+                    setIsFixed(window.scrollY > 0);
                 }
-            }["Header.useEffect.handleScroll"];
-            window.addEventListener("scroll", handleScroll);
-            handleScroll(); // run once on load
+            }["Header.useEffect.onScroll"];
+            window.addEventListener("scroll", onScroll);
+            onScroll(); // run once on mount
             return ({
-                "Header.useEffect": ()=>window.removeEventListener("scroll", handleScroll)
+                "Header.useEffect": ()=>{
+                    window.removeEventListener("scroll", onScroll);
+                }
             })["Header.useEffect"];
         }
     }["Header.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
+            isFixed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    height: "70px"
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/newheader.tsx",
+                lineNumber: 254,
+                columnNumber: 19
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "top-bar-custom",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1184,7 +1362,7 @@ function Header() {
                             className: `top-bar-icon ${currentIndex !== 0 ? "bell-animate" : ""}`
                         }, void 0, false, {
                             fileName: "[project]/components/newheader.tsx",
-                            lineNumber: 82,
+                            lineNumber: 259,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1192,22 +1370,22 @@ function Header() {
                             children: messages[currentIndex].content
                         }, void 0, false, {
                             fileName: "[project]/components/newheader.tsx",
-                            lineNumber: 91,
+                            lineNumber: 268,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/newheader.tsx",
-                    lineNumber: 81,
+                    lineNumber: 258,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/newheader.tsx",
-                lineNumber: 80,
+                lineNumber: 257,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: `header-custom ${isScrolled ? "scrolled" : ""}`,
+                className: `header-custom ${isFixed ? "fixed" : ""}`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container",
                     children: [
@@ -1227,22 +1405,22 @@ function Header() {
                                                 height: 50
                                             }, void 0, false, {
                                                 fileName: "[project]/components/newheader.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 282,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 281,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/newheader.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 280,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 279,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1254,7 +1432,7 @@ function Header() {
                                             children: "Services"
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 289,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1263,7 +1441,7 @@ function Header() {
                                             children: "Pricing"
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 292,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1272,7 +1450,7 @@ function Header() {
                                             children: "Agencies"
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 295,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1281,13 +1459,13 @@ function Header() {
                                             children: "Blog"
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 298,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 288,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1295,29 +1473,39 @@ function Header() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "d-none d-md-flex gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/login",
-                                                    className: "btn-login",
-                                                    children: "Log in"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/newheader.tsx",
-                                                    lineNumber: 129,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/start-free",
-                                                    className: "btn-start",
-                                                    children: "Start Free"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/newheader.tsx",
-                                                    lineNumber: 132,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            children: isAuthenticated ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                className: "btn-start",
+                                                onClick: ()=>router.push("/dashboard"),
+                                                children: "Dashboard"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/newheader.tsx",
+                                                lineNumber: 307,
+                                                columnNumber: 19
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        className: "btn-login",
+                                                        onClick: ()=>router.push("/login"),
+                                                        children: "Log in"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/newheader.tsx",
+                                                        lineNumber: 315,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        className: "btn-start",
+                                                        onClick: ()=>router.push("/start-free"),
+                                                        children: "Start Free"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/newheader.tsx",
+                                                        lineNumber: 321,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true)
+                                        }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1329,24 +1517,24 @@ function Header() {
                                                 children: "☰"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/newheader.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 331,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/newheader.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 330,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 304,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/newheader.tsx",
-                            lineNumber: 100,
+                            lineNumber: 277,
                             columnNumber: 11
                         }, this),
                         mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1358,7 +1546,7 @@ function Header() {
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 345,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1367,7 +1555,7 @@ function Header() {
                                     children: "Pricing"
                                 }, void 0, false, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 348,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1376,7 +1564,7 @@ function Header() {
                                     children: "Agencies"
                                 }, void 0, false, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 351,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1385,30 +1573,65 @@ function Header() {
                                     children: "Blog"
                                 }, void 0, false, {
                                     fileName: "[project]/components/newheader.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 354,
                                     columnNumber: 15
-                                }, this)
+                                }, this),
+                                isAuthenticated ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "btn-start mt-2",
+                                    onClick: ()=>router.push("/dashboard"),
+                                    children: "Dashboard"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/newheader.tsx",
+                                    lineNumber: 358,
+                                    columnNumber: 17
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "btn-login mt-2",
+                                            onClick: ()=>router.push("/login"),
+                                            children: "Log in"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/newheader.tsx",
+                                            lineNumber: 366,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "btn-start mt-2",
+                                            onClick: ()=>router.push("/signup"),
+                                            children: "Start Free"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/newheader.tsx",
+                                            lineNumber: 372,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/newheader.tsx",
-                            lineNumber: 150,
+                            lineNumber: 344,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/newheader.tsx",
-                    lineNumber: 99,
+                    lineNumber: 276,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/newheader.tsx",
-                lineNumber: 98,
+                lineNumber: 275,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(Header, "GopJjuOLPgl4pp1KV9h1z7UrW+g=");
+_s(Header, "pPWWOugnUQBtaNtEKNmzClSsWog=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$auth$2d$store$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["useAuthStore"]
+    ];
+});
 _c = Header;
 var _c;
 __turbopack_context__.k.register(_c, "Header");

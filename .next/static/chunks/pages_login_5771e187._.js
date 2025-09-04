@@ -10,7 +10,7 @@
   "static/chunks/node_modules_react-dom_82bb97c6._.js",
   "static/chunks/node_modules_axios_lib_9aa2336a._.js",
   "static/chunks/node_modules_a8aa6334._.js",
-  "static/chunks/styles_3a256ba1._.css"
+  "static/chunks/styles_e2f4025d._.css"
 ],
     source: "entry"
 });
