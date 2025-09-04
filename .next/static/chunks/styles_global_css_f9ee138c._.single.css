@@ -1,0 +1,197 @@
+/* [project]/styles/global.css [app-client] (css) */
+body {
+  color: #fff;
+  background-color: #0f0b15;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #24212a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7b4878;
+  border-radius: 10px;
+}
+
+@keyframes moveCircle {
+  0% {
+    top: 10%;
+    left: 20%;
+  }
+
+  50% {
+    top: 50%;
+    left: 50%;
+  }
+
+  100% {
+    top: 10%;
+    left: 20%;
+  }
+}
+
+@keyframes moveCircle2 {
+  0% {
+    top: 40%;
+    left: 60%;
+  }
+
+  50% {
+    top: 70%;
+    left: 30%;
+  }
+
+  100% {
+    top: 40%;
+    left: 60%;
+  }
+}
+
+.btn-login {
+  color: #fff;
+  background-color: #0000;
+  border: 1px solid #c52baf;
+  border-radius: 8px;
+  padding: 8px 30px;
+  transition: all .3s;
+  font-weight: 700 !important;
+}
+
+.btn-login:hover {
+  background-color: #c52baf;
+  border: 1px solid #c52baf;
+}
+
+.btn-start {
+  color: #fff;
+  background-color: #c52baf;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 30px;
+  transition: all .3s;
+  border: 1px solid #c52baf !important;
+  font-weight: 700 !important;
+}
+
+.btn-start:hover {
+  background-color: #0000;
+  border: 1px solid #c52baf;
+}
+
+.hero-banner {
+  background: #1c1c28;
+  padding: 80px 20px;
+}
+
+.hamburger-btn {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 28px;
+  display: none;
+}
+
+@media (width <= 766.98px) {
+  .btn-login, .btn-start {
+    display: none !important;
+  }
+
+  .nav-link-custom {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  body:before, body:after {
+    display: none;
+  }
+
+  .info-boxes {
+    opacity: 0;
+    margin-top: 65px;
+    transition: all .5s ease-out;
+    transform: translateY(100px);
+  }
+
+  html.body {
+    overflow-x: hidden !important;
+  }
+
+  .bubble3 {
+    top: 240px;
+    left: 36px;
+  }
+
+  .bubble2 {
+    top: 85px !important;
+    left: 63px !important;
+  }
+
+  .arrow1, .arrow2 {
+    display: none;
+  }
+
+  .gradient-heading {
+    font-size: 35px !important;
+    line-height: 40px !important;
+  }
+
+  .description {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 16px !important;
+  }
+}
+
+@media (width >= 768px) and (width <= 991.98px) {
+  .container {
+    max-width: 920px !important;
+  }
+
+  .btn-login, .btn-start {
+    display: none;
+  }
+}
+
+@media (width <= 575.98px) {
+  .nav-link-custom {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .header-custom {
+    padding: 12px 0;
+  }
+
+  .mobile-nav {
+    padding-top: 10px;
+  }
+}
+
+@media (width <= 768px) {
+  body:before, body:after {
+    content: none;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles_global_css_f9ee138c._.single.css.map*/

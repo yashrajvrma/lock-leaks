@@ -1,8 +1,10 @@
+"use client";
 import dynamic from "next/dynamic";
 import Footer from "@/components/footer";
 import Newheader from "@/components/newheader";
+import Dailogs from "@/components/dailogs";
 
-const Dailogs = dynamic(() => import("@/components/dailogs"), { ssr: false });
+// const Dailogs = dynamic(() => import("@/components/dailogs"), { ssr: false });
 
 export default function LoginPage() {
   return (

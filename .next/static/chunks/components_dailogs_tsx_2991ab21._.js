@@ -6,6 +6,8 @@ var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.v((parentImport) => {
     return Promise.all([
+  "static/chunks/node_modules_b71ca664._.js",
+  "static/chunks/_d68046ab._.js",
   {
     "path": "static/chunks/styles_3a424bc3._.css",
     "included": [
@@ -17,7 +19,6 @@ __turbopack_context__.v((parentImport) => {
       "static/chunks/styles_DiscountBanner_css_2bef753f._.single.css"
     ]
   },
-  "static/chunks/components_dailogs_tsx_b1c5bc58._.js",
   "static/chunks/components_dailogs_tsx_0bdb552e._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
         return parentImport("[project]/components/dailogs.tsx [client] (ecmascript, next/dynamic entry)");

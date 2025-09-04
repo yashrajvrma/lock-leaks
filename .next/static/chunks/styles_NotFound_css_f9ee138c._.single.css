@@ -1,0 +1,90 @@
+/* [project]/styles/NotFound.css [app-client] (css) */
+.notfound-wrapper {
+  box-sizing: border-box;
+  background-color: #0d0a14;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 180px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.notfound-container {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  padding: 20px;
+}
+
+.notfound-code {
+  background: linear-gradient(to right, #ca3fb7 35%, #e49dda 50%, #fff 100%);
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  -webkit-background-clip: text;
+  margin-bottom: 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.notfound-title {
+  color: #c05aaa;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.notfound-text {
+  color: #b9b9b9;
+  font-size: 16px;
+}
+
+.notfound-dots-container {
+  pointer-events: none;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.notfound-dot {
+  opacity: 0;
+  background-color: #b455af;
+  width: 10px;
+  height: 15px;
+  animation: 10s linear infinite notfound-float;
+  position: absolute;
+}
+
+@keyframes notfound-float {
+  0% {
+    opacity: 0;
+    transform: translateY(-800px)rotate(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0)rotate(360deg);
+  }
+}
+
+@media (width <= 768px) {
+  .notfound-code {
+    font-size: 80px;
+  }
+
+  .notfound-title {
+    font-size: 18px;
+  }
+
+  .notfound-text {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles_NotFound_css_f9ee138c._.single.css.map*/
